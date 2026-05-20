@@ -107,7 +107,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Vassant Finance, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Vassant Finance LLC.`,
     },
     prism: {
       theme: prismThemes.github,
