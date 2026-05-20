@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Vassant Finance',
   tagline: 'Documentation and updates',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   future: {
     v4: true,
@@ -52,15 +52,16 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/og.png',
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'Vassant Finance',
       logo: {
         alt: 'Vassant Finance Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {

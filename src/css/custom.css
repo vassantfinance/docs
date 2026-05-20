@@ -1,30 +1,126 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Vassant Finance docs theme — mirrors marketing site palette.
  */
 
-/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #e5247f;
+  --ifm-color-primary-dark: #cf1972;
+  --ifm-color-primary-darker: #c4156b;
+  --ifm-color-primary-darkest: #a11058;
+  --ifm-color-primary-light: #ea3d8e;
+  --ifm-color-primary-lighter: #ec4998;
+  --ifm-color-primary-lightest: #f273ad;
+
+  --vassant-accent-cyan: #0092bd;
+  --vassant-gradient: linear-gradient(135deg, #e5247f, #0092bd);
+
+  --ifm-font-family-base: 'Plus Jakarta Sans', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --ifm-heading-font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-font-weight-semibold: 600;
+
+  --ifm-background-color: #f7f8fc;
+  --ifm-font-color-base: #1a1a2e;
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Cyan as interactive/link primary — easier on dark bg than hot pink */
+  --ifm-color-primary: #00cfff;
+  --ifm-color-primary-dark: #00b8e6;
+  --ifm-color-primary-darker: #00aedb;
+  --ifm-color-primary-darkest: #008cb3;
+  --ifm-color-primary-light: #1ad5ff;
+  --ifm-color-primary-lighter: #33dbff;
+  --ifm-color-primary-lightest: #66e5ff;
+
+  --vassant-accent-pink: #ff2d9b;
+  --vassant-accent-cyan: #00cfff;
+  --vassant-gradient: linear-gradient(135deg, #ff2d9b, #00cfff);
+
+  --ifm-background-color: #0b1120;
+  --ifm-background-surface-color: rgba(255, 255, 255, 0.03);
+  --ifm-font-color-base: #ffffff;
+  --ifm-navbar-background-color: rgba(11, 17, 32, 0.72);
+  --ifm-footer-background-color: #070b15;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* Blog readability in dark mode */
+[data-theme='dark'] .markdown a,
+[data-theme='dark'] article a {
+  color: var(--ifm-color-primary);
+  text-decoration-color: rgba(0, 207, 255, 0.4);
+  text-underline-offset: 3px;
+}
+
+[data-theme='dark'] .markdown a:hover,
+[data-theme='dark'] article a:hover {
+  color: var(--ifm-color-primary-lighter);
+  text-decoration-color: var(--ifm-color-primary-lighter);
+}
+
+/* Blog post titles — calm slate-white, pink underline on hover */
+[data-theme='dark'] article h2 a,
+[data-theme='dark'] .markdown h1,
+[data-theme='dark'] .markdown h2 {
+  color: #f1f5fb;
+}
+
+[data-theme='dark'] article h2 a:hover {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, var(--vassant-accent-pink), var(--vassant-accent-cyan));
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  text-decoration: none;
+}
+
+/* Tag pills — cyan tint, pink on hover */
+[data-theme='dark'] .badge,
+[data-theme='dark'] a[class*='tag_'] {
+  background: rgba(0, 207, 255, 0.08);
+  border: 1px solid rgba(0, 207, 255, 0.3);
+  color: var(--ifm-color-primary);
+  transition: all 160ms ease;
+}
+
+[data-theme='dark'] a[class*='tag_']:hover {
+  background: rgba(255, 45, 155, 0.12);
+  border-color: var(--vassant-accent-pink);
+  color: var(--vassant-accent-pink);
+}
+
+/* Pagination nav cards */
+[data-theme='dark'] .pagination-nav__link {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+[data-theme='dark'] .pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  background: rgba(0, 207, 255, 0.04);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+[data-theme='dark'] .navbar {
+  backdrop-filter: blur(24px) saturate(1.2);
+  -webkit-backdrop-filter: blur(24px) saturate(1.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.vassant-gradient-text {
+  background: var(--vassant-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
