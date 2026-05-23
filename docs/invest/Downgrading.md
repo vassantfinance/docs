@@ -1,4 +1,4 @@
-# Invest Feature & Data Changes: Downgrading from VassantPRO
+# Downgrading
 
 - **Investment Data Conversion During Unsyncing**: All positions in the “Portfolio” subsection for each investment account subtype retain their original form, and nothing is deleted. Syncing will not occur going forward, and any updates to position sizing will have to be manual.
   
