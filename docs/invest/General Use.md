@@ -1,0 +1,23 @@
+# General Use
+
+- **Getting Started:** Users may enable and disable account sub tabs at any time by pressing the edit icon at the top right of the screen and add or remove accounts. If an account is removed, data is stored in case you ever re-enable it. A user cannot have multiple tabs of the same account type within the invest section in both the paid and free plans.
+
+  - In the “Invest” tab, users may perform the following functions: record investments, track “Next Purchase Prices,” set allocation targets (“Position Model”), manage manual activity history, collect investment research in custom or pre-made templates (“Vault”), and manage watchlists.
+
+- **Adding an Investment (Portfolio and Watchlist):** To add an investment, tap the magnifying glass icon. Two tappable buttons, labelled “Stocks” and “ETFs,” are on/off buttons for searching that specific subtype of investable equity in the search bar. By default, both are enabled. By tapping either one, it disables the search for that equity subtype. For example: when turning on “Stocks” (bubble filled in) and turning off “ETFs” (bubble empty), all search results will be stocks only. Search results are based on both the official company name and the ticker of the equity in question; attempt both search styles to find the investment of interest. Tapping any of the search results will automatically add that investment to the “Personal Watchlist”
+
+- **Removing an Investment:** To remove an investment from either the portfolio or watchlist, simply press the “Remove” button at the bottom of the investment card page.
+
+- **Moving an Investment from Watchlist to Portfolio:** In “Manual Mode,” a position may migrate to the “Portfolio” from the “Watchlist” section automatically if a user records a purchase using the “Record” button. To record a contribution, a user must first have an “Investment Plan” created. Then, next to the “First Purchase” section within a unique investment card is the “Record” button. Tapping this will generate a screen for investment information. The user must enter the total position value and the total portfolio value to generate a “New % of Portfolio,” which automatically updates a user’s existing “Investment Plan” once approved.
+
+- **Next Purchase Price:** In every investment card, users can set an intended “Next Purchase Price.” To update the “Next Purchase Price,” simply tap the pencil/paper icon to the right on the “Next Purchase” card and add a new value. The percent change of the current stock or ETF price (made available from the last available data sync) relative to the “Next Purchase Price” is shown in the same section.
+
+  - When you have reached full allocation towards the “Position Model,” there is no “Next Purchase Price” available. A user may only set a new purchase price if they select “Plan Another Purchase” and set a higher allocation target.
+
+  - *Note:* Paid users are automatically notified if a position reaches the intended next purchase price. Paid users also get access to automatic price drawdown calculations after recording an investment in “Manual Mode.” Free users do not get access to this feature; they must manually indicate the intended purchase price and individually track this.
+
+- **Position Model:** In each investment card, users have the option to set and track a “Position Model,” which is an allocation target of that specific position within the account. The target may be made and changed at any time. If the target is changed to be below the current progress, the model is deemed complete, and the “Next Purchase Price” is nullified. 
+
+- **Recording an Investment:** At any time, a user may manually record an investment (on free or paid plan) by pressing “Record” towards the top right of the screen. Each time a new recording is made, users must enter the new total position value and the total portfolio value, which calculates a new % of portfolio. This enables tracking of the “Position Model” for the investment. Assuming the recording doesn’t fully satisfy the “Position Model,” the next page suggests documenting the “Next Purchase Price” for the position. 
+
+- **Activity History:** The “Activity History” is a section where users can see a log of all their activity regarding purchases for a specific investment card in “Manual Mode.” One unique activity log is present for each investable security.
