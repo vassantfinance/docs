@@ -1,0 +1,8 @@
+{
+  "label": "Discover Support",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Discover support documentation for Vassant."
+  }
+}
