@@ -1,4 +1,4 @@
-# Organization and Overview
+# Initial Setup
 
 **Overview:** The “Financial Framework” provides a mechanism by which users can allocate all available “Investable Cash Flow” across different investment accounts such as (but not limited to) IRAs, 401(K)s, HSAs, and Brokerage accounts. By default, the “Financial Framework” is a model that spans a full calendar year (January 1st through December 31st) that repeats infinitely until changed or cancelled. The objective of the plan is to create a recurring yearly plan which allocates “Investable Cash Flow,” and then track this allocation incrementally on the “Allocations” dashboard. If a user joins mid-year, the framework is implemented for the remainder of the current calendar year (April - December, for example) and refreshes for the full calendar year in the following year.
 
