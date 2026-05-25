@@ -1,0 +1,9 @@
+# Upgrading
+
+**Connecting Accounts:** When upgrading to paid, users gain the ability to connect one or more financial institutions to sync investment allocations from multiple accounts. Users are not forced to sync an account when upgrading. To first connect an account, users may go to the sidebar located at the top left of the screen, press “Account Information”, scroll to the bottom, then press “Connect an Institution.” Users may enter their username and password to link an account with Vassant. Users may connect more than one financial institution, up to 5 maximum. Additional requests to connect more should be sent to support@vassantfinance.com.
+
+**Syncing Accounts:**  To then sync an account, users may go to the “Model” tab → “Yearly Investing Allocations” → select desired investment account card → “Connect account here”. A prompt to match accounts will follow. Users may only match 1 synced account with 1 allocations account. All accounts in the “Yearly Investing Allocations” section not matched to an account while in the Premium subscription remain in “Manual” mode and are not affected.
+
+- **Data Migration During Sync:** When connected, all accounts will be updated with net cash inflows over the user’s yearly allocation period. This will override any manual contributions in the given yearly allocation period. Users may continue to make manual cash inflow contributions to synced investment accounts to reflect other accounts of the same type not synced or supported by Vassant.
+
+**Unsyncing:** Synced investment accounts may be unsynced at any time by pressing the “X” symbol on the account profile in the invest card. The progress automatically converts to “Manual Mode”, and all data is maintained from the last available sync. All future contributions must be made via manual contributions. The account may be resynced at any time.
