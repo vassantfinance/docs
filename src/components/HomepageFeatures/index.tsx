@@ -1,5 +1,6 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -8,72 +9,92 @@ type FeatureItem = {
   accent: 'pink' | 'cyan';
   icon: ReactNode;
   description: ReactNode;
+  to: string;
 };
 
-const PlanningIcon = (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-       strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M3 3v18h18" />
-    <path d="M7 15l4-4 3 3 5-6" />
+const DiscoverIcon = (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="9" />
+    <polygon points="15.5 8.5 13 13 8.5 15.5 11 11" />
   </svg>
 );
 
-const LearningIcon = (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-       strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M4 5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2z" />
-    <path d="M8 7h7M8 11h7M8 15h5" />
+const ModelIcon = (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+  >
+    <line x1="4" y1="6" x2="20" y2="6" />
+    <line x1="4" y1="12" x2="20" y2="12" />
+    <line x1="4" y1="18" x2="20" y2="18" />
+    <circle cx="9" cy="6" r="2" fill="currentColor" />
+    <circle cx="15" cy="12" r="2" fill="currentColor" />
+    <circle cx="8" cy="18" r="2" fill="currentColor" />
   </svg>
 );
 
-const ResearchIcon = (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-       strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <circle cx="11" cy="11" r="7" />
-    <path d="M21 21l-4.3-4.3" />
+const InvestIcon = (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+  >
+    <path d="M3 17l6-6 4 4 8-9" />
+    <polyline points="15 6 21 6 21 12" />
   </svg>
 );
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Strategic Investment Planning',
-    accent: 'pink',
-    icon: PlanningIcon,
-    description: (
-      <>Guidance for portfolio construction, allocation, and long-term planning
-      tailored to your goals.</>
-    ),
-  },
-  {
-    title: 'Learning Platform',
+    title: 'Discover',
     accent: 'cyan',
-    icon: LearningIcon,
-    description: (
-      <>Walk-throughs, primers, and reference material to build financial
-      fluency at your own pace.</>
-    ),
+    icon: DiscoverIcon,
+    to: '/docs/category/discover',
+    description: <>Get the lay of the land and learn how Vassant thinks about investing.</>,
   },
   {
-    title: 'Research Tools',
+    title: 'Model',
     accent: 'pink',
-    icon: ResearchIcon,
-    description: (
-      <>Deep-dive analyses, market data, and product guides to inform every
-      decision.</>
-    ),
+    icon: ModelIcon,
+    to: '/docs/category/model',
+    description: <>Set up your budget and allocations. Tell Vassant what you're working with.</>,
+  },
+  {
+    title: 'Invest',
+    accent: 'cyan',
+    icon: InvestIcon,
+    to: '/docs/category/invest',
+    description: <>Once your model is dialed in, this is where the actual investing happens.</>,
   },
 ];
 
-function Feature({title, accent, icon, description}: FeatureItem) {
+function Feature({ title, accent, icon, description, to }: FeatureItem) {
   return (
     <div className={clsx('col col--4', styles.featureCol)}>
-      <div className={styles.featureCard}>
-        <div className={clsx(styles.iconWrap, styles[`accent_${accent}`])}>
-          {icon}
-        </div>
-        <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+      <Link to={to} className={styles.featureCard}>
+        <div className={clsx(styles.iconWrap, styles[`accent_${accent}`])}>{icon}</div>
+        <Heading as="h3" className={styles.featureTitle}>
+          {title}
+        </Heading>
         <p className={styles.featureDesc}>{description}</p>
-      </div>
+      </Link>
     </div>
   );
 }

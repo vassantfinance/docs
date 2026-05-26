@@ -1,25 +1,18 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+blake:
+  name: Blake
+  title: Co-founder
+  url: https://www.linkedin.com/in/blakeskrable/
+  image_url: /img/authors/blake.jpg
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    x: blakeskrable
+    linkedin: blakeskrable
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+miles:
+  name: Miles
+  title: Co-founder
+  url: https://www.linkedin.com/in/milescraigward
+  image_url: /img/authors/miles.jpg
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    linkedin: milescraigward

@@ -1,8 +1,8 @@
 {
-  "label": "Discover Support",
-  "position": 5,
+  "label": "Discover",
+  "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Discover support documentation for Vassant."
+    "description": "Get the lay of the land and learn how Vassant thinks about investing. Start here if you're new or just want to understand what we're about."
   }
 }

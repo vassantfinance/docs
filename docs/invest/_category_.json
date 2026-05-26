@@ -1,8 +1,8 @@
 {
-  "label": "Invest Support",
+  "label": "Invest",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Invest support documentation for Vassant."
+    "description": "Once your model is dialed in, this is where the actual investing happens. Day-to-day use, the Vault, and keeping things on track for the long haul."
   }
 }

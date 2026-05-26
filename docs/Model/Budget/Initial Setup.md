@@ -2,7 +2,7 @@
 
 **Initialization:** During app setup, users will first have the option to create a budget model by tapping “Create Budget” at the top of the “Budget” tab. Here, users are prompted to enter the amount and frequency of take-home pay (not pre-tax income) as well as all monthly expenses deducted from this take-home pay. Values are rounded to the nearest dollar automatically. Expenses are pre-categorized for users.
 
-**Adding Take-Home Pay and Expenses:** 
+**Adding Take-Home Pay and Expenses:**
 
 - **Income:** To add an income source, simply tap the “+” icon to the right of any of the income sources listed. From user input, income is normalized to a “Monthly Take-Home Pay” value to standardize the budget process.
 

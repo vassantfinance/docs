@@ -1,5 +1,5 @@
 /**
- * Vassant Finance docs theme — mirrors marketing site palette.
+ * Vassant docs theme — mirrors marketing site palette.
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
@@ -16,7 +16,8 @@
   --vassant-accent-cyan: #0092bd;
   --vassant-gradient: linear-gradient(135deg, #e5247f, #0092bd);
 
-  --ifm-font-family-base: 'Plus Jakarta Sans', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --ifm-font-family-base:
+    'Plus Jakarta Sans', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   --ifm-heading-font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   --ifm-heading-font-weight: 700;
   --ifm-font-weight-semibold: 600;
@@ -106,7 +107,12 @@
   background: rgba(0, 207, 255, 0.04);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   letter-spacing: -0.02em;
 }
 

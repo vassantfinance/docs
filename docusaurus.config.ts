@@ -1,9 +1,9 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Vassant Finance',
+  title: 'Vassant',
   tagline: 'Documentation and updates',
   favicon: 'img/logo.png',
 
@@ -58,9 +58,9 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Vassant Finance',
+      title: 'Vassant',
       logo: {
-        alt: 'Vassant Finance Logo',
+        alt: 'Vassant Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -70,7 +70,7 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://vassantfinance.com',
           label: 'Main site',
@@ -88,22 +88,20 @@ const config: Config = {
       links: [
         {
           title: 'Docs',
-          items: [
-            {label: 'Intro', to: '/docs/intro'},
-          ],
+          items: [{ label: 'Intro', to: '/docs/intro' }],
         },
         {
           title: 'Company',
           items: [
-            {label: 'Main site', href: 'https://vassantfinance.com'},
-            {label: 'Contact', href: 'https://vassantfinance.com/contact.html'},
+            { label: 'Main site', href: 'https://vassantfinance.com' },
+            { label: 'Contact', href: 'https://vassantfinance.com/contact.html' },
           ],
         },
         {
           title: 'More',
           items: [
-            {label: 'Blog', to: '/blog'},
-            {label: 'GitHub', href: 'https://github.com/vassantfinance/docs'},
+            { label: 'Blog', to: '/blog' },
+            { label: 'GitHub', href: 'https://github.com/vassantfinance/docs' },
           ],
         },
       ],

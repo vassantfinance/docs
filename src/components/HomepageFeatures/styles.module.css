@@ -10,13 +10,24 @@
 }
 
 .featureCard {
+  display: block;
   height: 100%;
   padding: 2rem 1.5rem;
   border-radius: 16px;
   border: 1px solid var(--ifm-color-emphasis-200);
   background: var(--ifm-background-surface-color, #fff);
-  transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+  transition:
+    transform 200ms ease,
+    border-color 200ms ease,
+    box-shadow 200ms ease;
   text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.featureCard:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 [data-theme='dark'] .featureCard {

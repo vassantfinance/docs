@@ -1,19 +1,14 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+capital_allocation:
+  label: Capital Allocation
+  permalink: /capital-allocation
+  description: How to think about where your money should go and why.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+fintech:
+  label: Fintech
+  permalink: /fintech
+  description: What's happening in finance tech and what it means for regular people.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+investing:
+  label: Investing
+  permalink: /investing
+  description: Real talk on investing for the long haul. What works, what doesn't, and why patience usually wins.

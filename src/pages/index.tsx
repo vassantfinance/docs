@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -9,7 +9,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
@@ -18,14 +18,10 @@ function HomepageHeader() {
         </Heading>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className={clsx('button button--lg', styles.primaryButton)}
-            to="/docs/intro">
+          <Link className={clsx('button button--lg', styles.primaryButton)} to="/docs/intro">
             Read the docs →
           </Link>
-          <Link
-            className="button button--outline button--secondary button--lg"
-            to="/blog">
+          <Link className="button button--outline button--secondary button--lg" to="/blog">
             Latest updates
           </Link>
         </div>
@@ -35,11 +31,9 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={siteConfig.title}
-      description="Documentation and updates for Vassant Finance.">
+    <Layout title={siteConfig.title} description="Documentation and updates for Vassant.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
