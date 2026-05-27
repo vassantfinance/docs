@@ -1,10 +1,10 @@
 ---
 slug: intro
-title: Welcome to Vassant
+title: Welcome
 sidebar_position: 1
 ---
 
-# Welcome to Vassant
+# Welcome
 
 Hey, glad you're here.
 
