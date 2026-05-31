@@ -1,5 +1,5 @@
 ---
-slug: intro
+slug: FAQ
 title: FAQ
 sidebar_position: 5
 ---
@@ -124,7 +124,7 @@ sidebar_position: 5
 ### Discover
 
 <details>
-  <summary>1. How exactly are Mastery Points calculated on quizzes?</summary
+  <summary>1. How exactly are Mastery Points calculated on quizzes?</summary>
   
   Mastery points measure your track comprehension, and they can never drop below zero: 
   - 3/3 correct: +3 Mastery Points (Marks the track as "Complete")
