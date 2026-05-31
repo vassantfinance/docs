@@ -1,21 +1,14 @@
 # blake:
 #   name: Blake
 #   title: Co-founder
-#   url: https://www.linkedin.com/in/blakeskrable/
-#   image_url: /img/authors/blake.jpg
+#   image_url: /img/authors/vassant_team.png
 #   page: true
-#   socials:
-#     x: blakeskrable
-#     linkedin: blakeskrable
 
 # miles:
 #   name: Miles
 #   title: Co-founder
-#   url: https://www.linkedin.com/in/milescraigward
-#   image_url: /img/authors/miles.jpg
+#   image_url: /img/authors/vassant_team.png
 #   page: true
-#   socials:
-#     linkedin: milescraigward
 
 vassant_team:
   name: Vassant
