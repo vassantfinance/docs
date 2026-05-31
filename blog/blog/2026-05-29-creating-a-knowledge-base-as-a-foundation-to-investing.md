@@ -1,7 +1,7 @@
 ---
 slug: creating-a-knowledge-base-as-a-foundation-to-investing
 title: Creating a Knowledge Base as a Foundation to Investing
-authors: vassant_team
+authors: Miles at Vassant
     
 tags: [Investing, Financial Literacy, Fintech]
 ---
