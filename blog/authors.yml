@@ -1,14 +1,14 @@
-# blake:
-#   name: Blake at Vassant
-#   title: Co-founder
-#   image_url: /img/authors/vassant_team.png
-#   page: true
+blake:
+  name: Blake at Vassant
+  title: Co-founder
+  image_url: /img/authors/vassant_team.png
+  page: true
 
-# miles:
-#   name: Miles at Vassant
-#   title: Co-founder
-#   image_url: /img/authors/vassant_team.png
-#   page: true
+miles:
+  name: Miles at Vassant
+  title: Co-founder
+  image_url: /img/authors/vassant_team.png
+  page: true
 
 vassant_team:
   name: Vassant
