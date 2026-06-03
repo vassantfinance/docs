@@ -12,3 +12,13 @@ investing:
   label: Investing
   permalink: /investing
   description: Real talk on investing for the long haul. What works, what doesn't, and why patience usually wins.
+
+quality: 
+  label: Quality
+  permalink: /quality
+  description: The art of being of the highest grade in the investment industry.
+
+long_term:
+  label: Long-Term
+  permalink: /long-term
+  description: Avoiding short-term noise and reorienting towards a brighter future.
