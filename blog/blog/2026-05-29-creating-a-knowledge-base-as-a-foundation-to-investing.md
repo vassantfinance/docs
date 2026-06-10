@@ -12,6 +12,8 @@ In fintech, the pressure to be first and be different is real. So platforms buil
 
 We kept asking the same question: what do users actually need? Not just on day one, but a month in, a year in?
 
+{/* truncate */}
+
 Education kept coming up. Not as a tagline, but as a genuine gap in the market. Only 48% of Americans are financially literate. Most don't have a financial plan. Most are missing the basic concepts that would actually help them make smarter decisions with their money.
 
 The platforms that have made education work didn't bury it in a tab somewhere. They built the whole thing around it. Duolingo is the obvious example. Fast, practical, and built around something people genuinely want: to get better at something that improves their life.
