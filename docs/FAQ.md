@@ -80,14 +80,21 @@ When you sync an account, Vassant automatically pulls your positions, position s
 ### Budget
 
 <details id="investable-cash-flow">
-  <summary>1. What exactly is "Investable Cash Flow"?</summary>
+  <summary>1. Why do I need to make a budget before my Financial Framework?</summary>
+
+Vassant has constructed an end-to-end workflow which creates an "Investable Cash Flow" value (generated from the *output* of "Budget") and uses this value as the *input* for your Financial Framework.
+
+</details>
+
+<details id="investable-cash-flow">
+  <summary>2. What exactly is "Investable Cash Flow"?</summary>
 
 It is the remaining monthly dollar value from your take-home pay after all your listed expenses are subtracted. This is the exact amount available for you to deploy in your Financial Framework (within the "Allocations" subtab in "Model").
 
 </details>
 
 <details id="expense-category-missing">
-  <summary>2. Where did my expense category go? It is missing from the main breakdown.</summary>
+  <summary>3. Where did my expense category go? It is missing from the main breakdown.</summary>
 
 If an expense category makes up less than 1% of your total take-home pay, the app automatically clusters it into the Other category. Tap the ellipsis (...) next to "Other" to view the hidden details.
 
