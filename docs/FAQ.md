@@ -166,6 +166,20 @@ Free users start with 2 unlocked Spotlights. You can unlock 3 more by earning Ma
 
 </details>
 
+### Upgrading/Downgrading
+
+<details id="interactive-brokers">
+  <summary>1. How do I connect an Interactive Brokers brokerage account to Vassant?</summary>
+
+1. Go to your Interactive Brokers dashboard on the web interface, and log in
+2. Go to "Performance and Reports" and click on "Third-Party Reports"
+3. Click the Gear Icon next to "Third-Party Services" and find the "Plaid" option, and save your selection
+4. Note the 24 digit token and the Query ID, both of which will be used in the Vassant connection process
+5. Go to Vassant and open the Plaid connection tool by going to "Account information" in Vassant and pressing the "Connect institution" button at the bottom of the screen.
+6. Search for the "Interactive Brokers - US" institution, and follow the prompts. Enter the 24 digit token and Query ID when asked.
+
+</details>
+
 ### Data Retention & Privacy
 
 <details id="store-credentials">
