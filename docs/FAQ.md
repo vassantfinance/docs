@@ -77,6 +77,13 @@ When you sync an account, Vassant automatically pulls your positions, position s
 - **Unmatched Positions:** Any positions not found via the synced connection remain entirely unaffected and stay in Manual Mode.
 </details>
 
+<details id="international-positions">
+  <summary>10. Why don't my international holdings show up after connecting an account via Plaid?</summary>
+
+Currently, Vassant only supports U.S. holdings. When an account that has international holdings is matched with an existing investment account, there will be no new investment cards created for those international holdings. If there already exists a manual position of an international holding, the data will not be updated via sync.
+
+</details>
+
 ### Budget
 
 <details id="investable-cash-flow">
