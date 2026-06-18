@@ -78,7 +78,7 @@ When you sync an account, Vassant automatically pulls your positions, position s
 </details>
 
 <details id="international-positions">
-  <summary>10. Why don't my international holdings show up after connecting an account via Plaid?</summary>
+  <summary>10. Why don't my international holdings update after connecting an account via Plaid?</summary>
 
 Currently, Vassant only supports U.S. holdings. When an account that has international holdings is matched with an existing investment account, there will be no new investment cards created for those international holdings. If there already exists a manual position of an international holding, the data will not be updated via sync.
 
