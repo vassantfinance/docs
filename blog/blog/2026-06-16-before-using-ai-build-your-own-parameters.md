@@ -19,6 +19,8 @@ It starts by setting some parameters:
 - Understand the nuances.
 - Be OK with the risk.
 
+{/* truncate */}
+
 # Develop the Mindset
 
 This is the obvious first step before making any investment, of course after you have set your budget and map out how you're going to allocate your cash flow, is to develop the Vassant Mindset.

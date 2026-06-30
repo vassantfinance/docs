@@ -17,6 +17,8 @@ By defining a clear strategy and holding period, you start to develop a **playbo
 
 Among the many investing philosophies, I'd like to focus on one in particular, backed by **decades** of high-quality data.
 
+{/* truncate */}
+
 # Time Arbitrage: The Secret to High and Consistent Returns
 
 This perspective hinges on an important yet often-overlooked concept that has grown increasingly relevant as today's market has become more "casino-like." This concept is **time arbitrage**. As more “investors” crowd into short-term trading in hopes of buying high and selling even higher, greater opportunities emerge from short-term dislocations. Heightened short-term volatility is the major culprit.
