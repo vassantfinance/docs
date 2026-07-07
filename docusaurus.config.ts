@@ -20,6 +20,34 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
 
+  // Google Analytics 4 with Consent Mode v2.
+  // We inject gtag manually (instead of the preset `gtag` option) so the
+  // consent defaults run BEFORE the config command. Analytics storage
+  // defaults to 'denied'; the consent banner (src/theme/Root.tsx) flips it
+  // to 'granted' and writes a `va_consent` cookie scoped to the parent
+  // domain so consent is shared with the marketing site (vassantfinance.com).
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: [
+        'window.dataLayer = window.dataLayer || [];',
+        'function gtag(){dataLayer.push(arguments);}',
+        "gtag('js', new Date());",
+        "var vaGranted = /(^|;\\s*)va_consent=granted(;|$)/.test(document.cookie);",
+        "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:vaGranted?'granted':'denied'});",
+        "gtag('config','G-N6WM1LQ0YF');",
+      ].join('\n'),
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        async: 'true',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-N6WM1LQ0YF',
+      },
+    },
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -46,10 +74,6 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
-        gtag: {
-          trackingID: 'G-N6WM1LQ0YF',
-          anonymizeIP: true,
         },
       } satisfies Preset.Options,
     ],
