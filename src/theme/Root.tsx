@@ -34,8 +34,9 @@ export default function Root({children}: {children: React.ReactNode}): React.Rea
           aria-label="Cookie consent"
         >
           <p className={styles.text}>
-            We use Google Analytics to understand how these docs are used. No
-            analytics cookies are set until you accept.
+            We use Google Analytics to understand how these docs are used.
+            <br />
+            No analytics cookies are set until you accept.
           </p>
           <div className={styles.actions}>
             <button
