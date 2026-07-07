@@ -16,7 +16,7 @@ Not sure where to click first? Here's the short version:
 
 - **[Discover](./Discover/Knowledge%20Base.md)** - Get the lay of the land. Browse the knowledge base and learn how Vassant thinks about investing.
 - **[Model](./Model/Budget/Initial%20Setup.md)** - Set up your budget and allocations. This is where you tell Vassant what you're working with.
-- **[Invest](./invest/General%20Use.md)** - Once your model is dialed in, this is where the actual investing happens.
+- **[Invest](./Invest/General%20Use.md)** - Once your model is dialed in, this is where the actual investing happens.
 
 ## A heads up
 
