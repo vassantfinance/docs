@@ -9,6 +9,8 @@ AI has been the craze for a while now, and it's disrupting how we view investing
 
 One of the main points Vassant is emphasizing in our entry into the market is the need to fill the educational gap most investors have, [we've written about it before](/blog/creating-a-knowledge-base-as-a-foundation-to-investing). But how do you actually apply that into your investing workflow?
 
+{/* truncate */}
+
 It starts by setting some parameters:
 
 - Develop the mindset.
@@ -18,8 +20,6 @@ It starts by setting some parameters:
 - Analyze the competition.
 - Understand the nuances.
 - Be OK with the risk.
-
-{/* truncate */}
 
 # Develop the Mindset
 

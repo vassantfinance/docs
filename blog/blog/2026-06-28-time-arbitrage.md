@@ -11,13 +11,13 @@ In investing, it is said that the ones who turn over the most rocks make the mos
 
 While he didn’t find a new investment opportunity on every page, he turned over a vast number of rocks, and his track record is proof that the process works.
 
+{/* truncate */}
+
 But before surveying the investment landscape, you first need to define your investment philosophy. Some enjoy holding periods of days or weeks, while others define their ideal holding period as **infinite**. Others prefer to buy at cheap or fair prices based on historical valuation, absolute valuation, or industry valuation.
 
 By defining a clear strategy and holding period, you start to develop a **playbook** and an **internal scorecard** that allow you to invest according to your own rules, not in comparison to your next-door neighbor Ethan making 150% on a 0DTE option trade.
 
 Among the many investing philosophies, I'd like to focus on one in particular, backed by **decades** of high-quality data.
-
-{/* truncate */}
 
 # Time Arbitrage: The Secret to High and Consistent Returns
 
