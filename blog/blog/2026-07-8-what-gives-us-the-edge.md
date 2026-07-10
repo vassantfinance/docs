@@ -15,6 +15,8 @@ And while we are offering stock-related information, the purpose of the Vassant 
 
 We're taking our time to do things right so that we can grow and provide more offerings and capabilities while being backed by compliance measures and due diligence. Yes, others are doing this too in our space, but oftentimes the lines of recommendations and information are blurred across your average subreddit, viral X post, Substack article, or YouTube video with an attention-seeking thumbnail.
 
+{/* truncate */}
+
 But it's not just an informational game.
 
 We're still building a product that is addressing root problems in personal finance and wealth management: investing disorganization mixed with emotion, poor capital allocation modeling, and unstructured, inaccessible learning. While others pursue short term glory, we want to build an app that can withstand ebbs and flows. This happens progressively, but our mission is limitless.
