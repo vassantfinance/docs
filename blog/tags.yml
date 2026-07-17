@@ -22,3 +22,8 @@ long_term:
   label: Long-Term
   permalink: /long-term
   description: Avoiding short-term noise and reorienting towards a brighter future.
+
+business_model:
+  label: Business Model
+  permalink: /business-model
+  description: How we think about designing a great product.
