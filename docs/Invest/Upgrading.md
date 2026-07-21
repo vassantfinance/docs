@@ -5,7 +5,7 @@
   - After tapping "Connect account," the user may select an account then press “Continue” to associate your account with the Plaid-linked brokerage (if multiple accounts of the same subtype are selected to match an account overview, they can be combined into a singular account overview). If nothing is selected, the “Connect account” remains at the top of the invest account screen, and it may be matched with another account from any financial institution at any time, or remain in “Manual Mode” indefinitely.
   - After connecting accounts, additional accounts from other financial institutions can be synced at any time by selecting “Connect account” at the top of the account tab.
   - After syncing, investment information collected and used by Vassant includes positions, position sizes, new purchases, and total account values.
-  - Note: Connecting an account via the “Invest” tab does not automatically match accounts within the “Allocations” subtab within “Model.”
+  - Note: Connecting an account via the “Invest” tab does not automatically match accounts within the “Allocations” subtab within “Model.” Syncing in "Allocations" must be done separately.
 
 - **Investment Data Conversion During Sync**: When applicable, all positions in the “Portfolio” section created from manual recordings that match found positions via synced connection in labeled accounts are automatically updated (overriding the existing manual contributions) to reflect current portfolio percentages.
   - All positions currently found are automatically updated (and transitioned from the “Watchlist” section, if applicable) in the “Portfolio” section.
@@ -16,7 +16,5 @@
 - **Position Models in Synced Mode**: When the percent allocation of a given position reaches the target threshold, the plan is marked as complete, regardless if the actual percent allocation drops below this value with new syncs. “Watchlist” positions and their respective models are not impacted in “Sync” mode.
 
 - **Live Market Data**: Users gain access to public market data for automatic price checks given a position’s next purchase price, as well as automatic price calculations for determining the “Next Purchase Price.”
-
-- **“Spotlight” Profiles**: All “Spotlight” profiles immediately become available to users upon upgrading.
 
 - **The “Vault”:** Users now get access to an editable Vassant “Vault” for every desired investment position, where it was limited to 6 under the Free Plan. In addition, users gain access to “Use Spotlight Profile” as an option to initiate a “Vault” for a unique investable security, if that profile is now released and accessible to the paid user.
