@@ -1,0 +1,102 @@
+---
+slug: whitepaper
+title: Vassant Whitepaper
+tags: [investing, capital_allocation, fintech]
+authors: [vassant_team]
+---
+
+## Who We Are
+
+`Vassant` is a B2C financial technology platform designed to bridge the performance gap for investors by replacing "blind trust" with a structured, strategic layer. While traditional brokerages profit from high trading frequency and short-term volatility, Vassant serves as a long-term sidekick to help start building lasting wealth with confidence.
+
+{/* truncate */}
+
+## Industry Context
+
+Studies show that millennials have [30% less wealth](https://www.cnbc.com/2024/04/26/wealth-gap-between-millennials-new-class-war.html) at age 35 than the Baby Boomer generation, requiring more stringent capital allocation practices to fill the gap.
+
+Data show that over the past 60+ years, the holding time of a security has decreased from [8 years](https://www.weforum.org/stories/2021/12/long-term-investing-decline/) to just under one year – highlighting the increased focus on short-term trading.
+
+On the financial advisory side, the workforce is experiencing unprecedented contraction that will fundamentally reshape the industry landscape. Over the past decade, advisor workforce growth has remained anemic at just [0.3% annually](https://www.mckinsey.com/industries/financial-services/our-insights/the-looming-advisor-shortage-in-us-wealth-management), and the outlook projects an actual decline of 0.2% annually going forward. This deterioration stems from a demographic reality: advisors are on average ten years older than members of similar professions, and retirements significantly outpace new advisor recruitment. The numbers are staggering. An estimated 110,000 advisors, representing 38% of the current workforce and managing 42% of total industry assets, are expected to retire within the next decade. This creates a substantial supply-demand imbalance, with fewer advisors available to serve a growing client base with increasingly complex financial needs.
+
+At the same time, online platforms targeting varying investor groups are seeing a growth in popularity. Robinhood provides democratized access to investment products; Public provides an AI suite along with other comprehensive tools and investment capabilities; and legacy online platforms like Morningstar and Yahoo Finance offer extensive research and data aggregation.
+
+Compounding the advisor shortage is a critical disconnect between investor expectations and market realities. Although recent research only provides a snapshot of consumer sentiment, we found that US investors expect annual returns of [12.6%](https://www.morningstar.com/stocks/do-individual-investors-need-reality-check) in 2025, down from the [15.6%](https://www.investopedia.com/us-investors-have-unrealistic-expectations-7551952) reported last year, but above historical market averages of approximately 10 percent for the S&P 500. This gap creates planning risks and sets the stage for client disappointment. Investors making financial decisions based on higher-than-average returns will likely under-save for retirement, take on excessive risk, make poor asset allocation decisions, and delay critical life milestones such as home purchases and family planning. Financial plans built on these ambitious projections will fail if individuals pursue the traditional advisor route, leading to retirement shortfalls and financial insecurity. The magnitude of this expectations gap represents both a significant market risk and a critical need for education-focused advisory services that can set realistic expectations and guide sound personal finance.
+
+## The Problem
+
+### The Retail Underperformance & Long-Term Focus Gap
+
+Through extensive research and market analysis, we have identified the core gap in the capital markets ecosystem: retail investors face a systemic "underperformance gap" driven by behavioral biases, short-term thinking, and hyperactive data feeds. Underscoring that consumer dilemma are four main problem drivers:
+
+- **Market Underperformance:** [Over a 30-year period](https://lanningfinancial.com/why-the-average-investor-underperforms-the-market/) ending in 2021, according to Lanning Financial, the average equity investor earned 7.13% per year, while the S&P 500 achieved a 10.65% annual return, caused by emotional decision-making and poor timing.
+- **Short-Termism:** The average holding period for U.S. shares has plummeted from [8 years](https://www.weforum.org/stories/2021/12/long-term-investing-decline/) in 1960 to just [5.5 months](https://www.reuters.com/article/markets/stocks/buy-sell-repeat-no-room-for-hold-in-whipsawing-markets-idUSKBN24Z101/) today.
+- **"Blind Trust":** The median retail trader in 2025 spent only [6 minutes](https://www.investopedia.com/investors-tend-to-be-impulse-buyers-11745450) on research before making a trade, often relying on "finfluencers" rather than fundamentals. Conviction suffers, leading to shorter-term investing time horizons and increased trading activity.
+- **Cognitive Information Overload:** Given increased access to technology and news feeds, data volume often exceeds cognitive capacity, leading to poor decision-making, fatigue, and impulsive behavior. [This density](https://www.mdpi.com/2813-9844/8/1/17) often causes investors to rely on external cues or experience decision paralysis rather than following a disciplined strategy.
+
+## The Solution
+
+### A Strategic Investment & Capital Allocation Architecture
+
+As we began creating solutions to improve investor outcomes, we arrived at our final product: investment-specific wealth management solutions on an online platform called "Vassant." The name is derived from "en passant," a special chess move that allows a pawn to capture an opponent's pawn that has just moved two squares forward from its starting position and landed beside it. The 'V' represents creating value through strategic, well-planned investment decisions.
+
+Vassant has a clear overarching goal: to improve the experience and efficiency of the wealth growth journey, enhance the fundamental understanding of long-term decisions, and increase conviction for investments and capital allocation decisions.
+
+Vassant provides the personal data organization tools required for better-informed decisions through three core pillars:
+
+- **Investment Organization & Multi-Account Management:** Users can manage more than one account in a structured manner, set capital allocation targets, document position research, and define "next purchase" prices to maintain a disciplined thesis.
+- **Capital Allocation Framework:** A system to map monthly investable cash flow and optimize allocations across tax-conscious accounts (Roth IRAs, HSAs, 401(k)s).
+- **Fundamental Education & Templated Case Studies:** Learning modules and public equity case studies integrated directly into the user profile to help move from "price-following" to "value-understanding".
+
+## The Customers Who Benefit Most
+
+Investors new to the space benefit through the addition of a guardrailed workflow and "a place to start" in their investing decisions. Someone who would derive the most value out of our platform is someone who seeks structured management and ultimate control, enabling them to track their cash and decision-making over their investment lifecycle.
+
+## Who Is It For?
+
+- _The Motivated Learner:_ You want a better process and higher financial literacy.
+- _The Fundamental Investor:_ You pick individual stocks or specialized ETFs and want to document valuations, research, and theses to gain extra conviction in your investments.
+- _The Precise Capital Allocator:_ You tightly manage your own money and want maximum control and organization over how your cash gets allocated across different accounts.
+
+Vassant isn't just another tool; it is the **essential strategic layer** that turns fragmented data into a clear, actionable roadmap which allows retail investors to stop following the crowd and start building lasting wealth with confidence.
+
+## How We're Different
+
+Vassant differentiates itself through five core strategic advantages compared to competition:
+
+- **User Data Ecosystem:** Vassant unifies siloed financial data into synergized, personalized frameworks.
+- **Intangible Assets (Long-Term Branding):** The platform stands out from short-term market noise by specifically targeting and aligning with the needs of long-term investors.
+- **Integrated Tech Stack:** Utilization of Plaid for account syncing, Twelve Data for real-time pricing, and planned IRS integrations for tax-related data.
+- **Commercial-Ready Financial Expertise:** Building great investing products requires financial expertise, but sourcing that talent from traditional finance is incredibly difficult. Between strict compliance risks and regulatory hurdles like FINRA Rule 3270, industry professionals face massive conflicts of interest that limit their availability for a startup. On top of that, standard financial education tends to produce a rigid view of market theory, heavily influenced by industry incentives. Our background is built differently. We anchor our approach to investment management in the proven methods of investing legends, focusing on rigorous fundamental analysis, long-term theory, and high-conviction investing behavior.
+- **Switching Costs (Investment Behavior Documentation):** By mapping complex ideas over a user's unique investment journey, Vassant creates high-friction, non-portable data assets.
+
+## Market Opportunity & Growth Tailwinds
+
+The convergence of increased retail participation, underperformance, and a growing demand for financial clarity has created a massive opening for specialized investment strategy platforms. Vassant operates specifically within the [$5 billion Online Investment Platform market](https://www.thebusinessresearchcompany.com/report/online-investment-platform-global-market-report), while directly benefiting from the massive structural growth of the broader estimated [$75 billion global investment app market](https://market.us/report/investment-apps-market/).
+
+## Industry Growth Drivers & Tailwinds
+
+Vassant's core market is positioned for significant expansion through 2030:
+
+- **Technological Shift:** Lower barriers to entry for tech development and increased mobile device penetration have democratized access to investment platforms, leaving a larger percentage of the retail investor population with a need for investment tools to aid their workflows.
+- **Personalization Trends:** With increased retail investor participation comes an increasing demand for personalized financial tools to allow users to gain a better understanding of investment data and performance.
+
+## Total Addressable Market (TAM)
+
+Vassant targets two distinct user segments based on their depth of financial engagement:
+
+**Users of third-party financial apps**
+
+- _Market Size:_ According to recent reports, approximately [78% of retail investors](https://www.marketreportsworld.com/market-reports/investment-apps-market-14720495) actively use investment applications for trading, portfolio tracking, and financial planning.
+- _Drivers:_ [52%](https://www.intuit.com/blog/global-stories/intuit-canada/intuit-financial-literacy-survey-2024/) of consumers desire a deeper understanding of their finances. Currently, over [10 million](https://www.rocketmoney.com/learn/personal-finance/monarch-money-vs-rocket-money) people utilize third-party apps like Rocket Money to manage digital financial lives.
+
+**Active managers of personal investments**
+
+- _Market Size:_ Approximately 41 million Americans, or ~12% of the U.S. population.
+- _Drivers:_ [62% of Americans](https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx) owned stock as of 2025. Of these, [34%](https://emoneyadvisor.com/blog/2022-consumer-investor-trends-and-the-role-of-the-advisor/) of investors manage all their own investments, while 23% employ a hybrid model. Additionally, [55%](https://www.theia.org/sites/default/files/2025-09/Retail%20Investors%20ETFs%20report_Final.pdf) of ETF investors also own individual stocks, meaning a significant proportion of index investors may find strong utility in Vassant.
+
+## The Next Step: Move Beyond the Noise. Invest with Conviction.
+
+In 2025, retail investors spent only [_6 minutes_](https://www.investopedia.com/investors-tend-to-be-impulse-buyers-11745450) of research before buying a stock. The result? The average investor underperforms the S&P 500 by over 3% per year, driven by short-term, emotional influence and information overload. This is unacceptable; we believe investors deserve better returns, more transparency, better organization, and more streamlined information.
+
+But the problem isn't a lack of information. It's the noise. Most platforms encourage endless data consumption, leaving investors to drown in numbers, news feeds, and investment ideas coming from all directions.
