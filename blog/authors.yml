@@ -13,7 +13,6 @@ miles:
 vassant_team:
   name: Vassant
   title: Team
-  url: https://docs.vassantfinance.com/
   image_url: /img/authors/vassant_team.png
   page: true
 
