@@ -97,6 +97,10 @@ Vassant targets two distinct user segments based on their depth of financial eng
 
 ## The Next Step: Move Beyond the Noise. Invest with Conviction.
 
-In 2025, retail investors spent only [_6 minutes_](https://www.investopedia.com/investors-tend-to-be-impulse-buyers-11745450) of research before buying a stock. The result? The average investor underperforms the S&P 500 by over 3% per year, driven by short-term, emotional influence and information overload. This is unacceptable; we believe investors deserve better returns, more transparency, better organization, and more streamlined information.
+On average, investors underperform the market. This is unacceptable; we believe investors deserve better returns, more transparency, and better organization.
 
-But the problem isn't a lack of information. It's the noise. Most platforms encourage endless data consumption, leaving investors to drown in numbers, news feeds, and investment ideas coming from all directions.
+But the problem isn't a lack of information. AI and research terminals have democratized access to financial data that has made analysis as easy as ever.
+
+The real challenge is staying rational while simultaneously filtering, internalizing, and organizing that information into a personalized and structured investment process that can be applied consistently over time.
+
+This is where Vassant comes in.
