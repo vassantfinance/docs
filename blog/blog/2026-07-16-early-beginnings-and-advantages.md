@@ -9,6 +9,8 @@ tags: [Business Model]
 
 We are now approaching our official launch on the **App Store** and **Google Play**, where Vassant will be available on iOS and Android. Even though the launch itself is our biggest milestone yet, the journey has been **just as exciting**. We felt it would be fitting to pair this launch with a recap of how we got here and share some cool stuff we learned along the way.
 
+{/* truncate */}
+
 # How Did We Get Started?
 
 Vassant was born in early 2025. It was then that Miles and I realized that there might be an opportunity to bring value to the investment space through a decision-making hub. Drawing on 5+ years of investment experience and the analytical mindset I developed from my science background, I had developed a knack for methodically discovering investment opportunities, analyzing businesses, and building robust theses. I realized there were many more people out there like me, but without a single space to document, organize, track, and refine this information. **We knew we had found something important**.
