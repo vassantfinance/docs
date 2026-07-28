@@ -41,6 +41,6 @@ I've used budgeting apps for years, and I mostly find them useful, but a key ele
 
 We coupled Budget with Allocations to help users track progress on contributions towards investing accounts using your investable cash flow. None of this is groundbreaking. But when you look at the landscape of fintech and the trove of apps that try to 'optimize' your finance, simplicity can be an attractive alternative.
 
-For me a helpful analogy is comparing golf with any of the major teams sports you can think of. In a team sport, you're reliant on someone else, or someone else is reliant upon you to perform. In golf, it's just you… alone on the course with the reliance of practiced personal skills to be your fallback.
+For me a helpful analogy is comparing golf with any of the major team sports you can think of. In a team sport, you're reliant on someone else, or someone else is reliant upon you to perform. In golf, it's just you… alone on the course with the reliance of practiced personal skills to be your fallback.
 
 At Vassant, we believe there are simply too many teams going in all sorts of directions. Our theory is that a distilled, simple, and centralized platform where someone charts their own wealth journey can unlock greater conviction and satisfaction for accessible personal financial management.
