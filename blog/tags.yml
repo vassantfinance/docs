@@ -27,3 +27,13 @@ business_model:
   label: Business Model
   permalink: /business-model
   description: How we think about designing a great product.
+
+etf:
+  label: ETF
+  permalink: /etf
+  description: Discussing how funds fit into the investing sphere.
+
+businesses:
+  label: Businesses
+  permalink: /businesses
+  description: Discussing how individual businesses make up a long-term investing style.
