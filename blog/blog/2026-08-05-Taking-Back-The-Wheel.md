@@ -5,7 +5,7 @@ tags: [Businesses, ETF]
 authors: [blake]
 ---
 
-## The Battle of Stocks vs ETFs.
+## The Battle of Stocks vs. ETFs.
 
 When we think about the rationale for developing a platform for conviction-building in investments, it is important to understand the motivating factors driving why one might invest in individual stocks, or at least a mix of stocks in a larger fund of equities, funds, and maybe even bonds.
 
