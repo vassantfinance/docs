@@ -144,22 +144,15 @@ The chart estimates future progress by dividing your total planned yearly invest
 
 </details>
 
-<details id="extra-contributions-progress">
-  <summary>6. On the Allocations dashboard, why aren't my "Extra Contributions" speeding up my total plan progress?</summary>
-
-The overall plan progress bar tracks completion toward your planned yearly goals. Excess capital added on top of a goal is recorded separately as "Extra Contributions" on individual cards so it doesn't skew your primary baseline target.
-
-</details>
-
 <details id="plus-minus-signs">
-  <summary>7. On the Allocations chart, how are the monthly and YTD targets calculated?</summary>
+  <summary>6. On the Allocations chart, how are the monthly and YTD targets calculated?</summary>
 
 The monthly target for your aggregated framework is calculated by taking the total sum of yearly cash allocated across all accounts and dividing by 12. For the YTD target, the monthly target is multiplied by the number of months in the calendar year thus far, including the current month. For your account-specific allocations, the yearly indicated allocation to that account is divided by 12 for each monthly goal, then multiplied by the number of months in the calendar year thus far, including the current month, for the YTD goal. For example, if you indicated in your framework that you want to allocate $12,000 per year ($1,000/mo.) to your Brokerage, and for the current month of August you allocate $1,000, you will have reached 100% completion of the monthly goal for that account. 
 
 </details>
 
 <details id="plus-minus-signs">
-  <summary>8. On the Allocations chart, what do the plus ("+") and minus ("-") signs indicate?</summary>
+  <summary>7. On the Allocations chart, what do the plus ("+") and minus ("-") signs indicate?</summary>
 
 A plus sign above the specific month in question indicates that you allocated more than the total summed contributions planned for that month. A minus sign above the specific month in question indicates that you allocated less than the total summed contributions planned for that month. For example, if you indicated in your framework that you want to allocate $12,000 per year ($1,000/mo.) to your Brokerage and $1,200 per year to your HSA ($100/ mo.), and for August 2026 you actually allocate $1,500 across these accounts (larger than the planned $1,100 per month average), a plus sign will appear above the August 2026 bar. 
 
