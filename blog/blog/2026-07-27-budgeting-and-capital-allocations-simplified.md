@@ -5,9 +5,11 @@ authors: [miles]
 tags: [Budgeting, Capital Allocation, Financial Literacy, Fintech]
 ---
 
-Let's be clear, Vassant is not a financial advisory platform. Our platform's purpose is to provide users with simple tools and frameworks that allow you to move and make decisions autonomously. Other platforms offer more direct financial advisory tailored for the digital age, but they are still costly. They either charge per session (usually lasting 30 minutes to an hour) or they charge a high yearly subscription.
+Let's be clear, **Vassant is not a financial advisory platform**. Our platform's purpose is to provide users with simple tools and frameworks that allow you to move and make decisions autonomously. Other platforms offer more direct financial advisory tailored for the digital age, but they are still costly. They either charge per session (usually lasting 30 minutes to an hour) or they charge a high yearly subscription.
 
 The problem with that approach for the everyday investor, young professional, or users who simply want more control and direction, is that it creates a structure where customers are being led but not encouraged to take the wheel. To be clear, financial advice is a popular service. A few key facts outline these dynamics:
+
+{/* truncate */}
 
 - Americans who worked with financial advisors, according to PlanAdvisor, reported a [62%](https://www.planadviser.com/fewer-half-americans-satisfied-financial-advice/) satisfaction rate.
 - [59%](https://www.prnewswire.com/news-releases/nearly-3-in-5-americans-59-want-financial-advice-but-are-not-sure-where-to-get-it-according-to-intelliflo-survey-301494402.html) of Americans want financial advice but are unsure of where to get it.
