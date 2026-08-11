@@ -121,28 +121,52 @@ const config: Config = {
         href: 'https://vassantfinance.com',
         target: '_self',
       },
+      // `target: '_self'` on every marketing link — Docusaurus sends external
+      // hrefs to a new tab by default, which breaks the one-site illusion the
+      // moment you touch the nav. This is one header spanning two origins, so
+      // it should navigate like one header.
       items: [
-        { href: 'https://vassantfinance.com', label: 'Home', position: 'left' },
-        { href: 'https://vassantfinance.com/about.html', label: 'About', position: 'left' },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          href: 'https://vassantfinance.com',
+          label: 'Home',
           position: 'left',
+          target: '_self',
+        },
+        {
+          href: 'https://vassantfinance.com/about.html',
+          label: 'About',
+          position: 'left',
+          target: '_self',
+        },
+        // A plain link rather than a docSidebar item so activeBaseRegex can
+        // also claim this site's landing page, which is where the marketing
+        // nav's Docs link drops you — otherwise you arrive with nothing lit.
+        {
+          to: '/docs/intro',
           label: 'Docs',
+          position: 'left',
+          activeBaseRegex: '^/(docs(/.*)?)?$',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
-        { href: 'https://vassantfinance.com/contact.html', label: 'Contact', position: 'left' },
+        {
+          href: 'https://vassantfinance.com/contact.html',
+          label: 'Contact',
+          position: 'left',
+          target: '_self',
+        },
         {
           href: 'https://vassantfinance.com/#waitlist-form',
           label: 'Download the App',
           position: 'right',
           className: 'navbar-download-app',
+          target: '_self',
         },
         {
           href: 'https://vassantfinance.com/#waitlist-form',
           label: 'Sign up',
           position: 'right',
           className: 'navbar-cta',
+          target: '_self',
         },
       ],
     },
@@ -156,8 +180,12 @@ const config: Config = {
         {
           title: 'Company',
           items: [
-            { label: 'Main site', href: 'https://vassantfinance.com' },
-            { label: 'Contact', href: 'https://vassantfinance.com/contact.html' },
+            { label: 'Main site', href: 'https://vassantfinance.com', target: '_self' },
+            {
+              label: 'Contact',
+              href: 'https://vassantfinance.com/contact.html',
+              target: '_self',
+            },
           ],
         },
         {
