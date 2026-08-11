@@ -2,7 +2,9 @@
  * Vassant docs theme — mirrors marketing site palette.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+/* Space Grotesk is loaded via `headTags` in docusaurus.config.ts so the font
+   request isn't blocked behind this stylesheet. Axis caps at 700 — don't ask
+   for 800. */
 
 :root {
   --ifm-color-primary: #e5247f;
@@ -16,14 +18,23 @@
   --vassant-accent-cyan: #0092bd;
   --vassant-gradient: linear-gradient(135deg, #e5247f, #0092bd);
 
-  --ifm-font-family-base:
-    'Plus Jakarta Sans', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  --ifm-heading-font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --ifm-font-family-base: 'Space Grotesk', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --ifm-heading-font-family:
+    'Space Grotesk', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   --ifm-heading-font-weight: 700;
   --ifm-font-weight-semibold: 600;
 
   --ifm-background-color: #f7f8fc;
   --ifm-font-color-base: #1a1a2e;
+
+  /* Nav geometry copied from the marketing site (css/styles.css `nav`). */
+  --ifm-navbar-height: 72px;
+  --ifm-navbar-padding-horizontal: 2rem;
+  --ifm-navbar-item-padding-horizontal: 1.125rem;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.88);
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-link-color: rgba(26, 26, 46, 0.62);
+  --ifm-navbar-link-hover-color: #e5247f;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
@@ -46,9 +57,233 @@
   --ifm-background-color: #0b1120;
   --ifm-font-color-base: #ffffff;
   --ifm-navbar-background-color: rgba(11, 17, 32, 0.72);
+  --ifm-navbar-link-color: rgba(255, 255, 255, 0.68);
+  --ifm-navbar-link-hover-color: #ff2d9b;
   --ifm-footer-background-color: #070b15;
 
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* ============================================================
+   Navbar — matched to the marketing site's nav (css/styles.css)
+   so the two properties read as one site: same lockup, same link
+   set, same type scale, same glass chrome, same pill CTA.
+   ============================================================ */
+
+.navbar {
+  backdrop-filter: blur(24px) saturate(1.2);
+  -webkit-backdrop-filter: blur(24px) saturate(1.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Marketing caps the nav row at --content-width-wide and pads it again. */
+.navbar__inner {
+  max-width: 1349px;
+  margin: 0 auto;
+  padding: 0 var(--ifm-navbar-padding-horizontal);
+}
+
+/* Marketing puts a flat 2rem between brand and links; Infima also pads the
+   first item, so trim half of it back out to land the first link on the same
+   x as the marketing nav (measured: 204px at a 1280px viewport). */
+.navbar__brand {
+  margin-right: calc(2rem - var(--ifm-navbar-item-padding-horizontal) / 2);
+}
+
+.navbar__logo,
+.navbar__logo img {
+  height: 24px;
+  width: auto;
+  display: block;
+}
+
+.navbar__link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.navbar__link--active {
+  color: var(--ifm-navbar-link-hover-color);
+  font-weight: 600;
+}
+
+/* Marketing nav carries no external-link glyphs. */
+.navbar__item svg[class*='iconExternalLink'] {
+  display: none;
+}
+
+.navbar-download-app {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #e5247f;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.navbar-download-app:hover {
+  color: #e5247f;
+  opacity: 0.75;
+}
+
+[data-theme='dark'] .navbar-download-app,
+[data-theme='dark'] .navbar-download-app:hover {
+  color: #ff2d9b;
+}
+
+.navbar-cta {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.75rem;
+  padding: 0.45rem 1.25rem;
+  border-radius: 9999px;
+  border: 1.5px solid #1a1a2e;
+  color: #1a1a2e;
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.navbar-cta:hover {
+  background: #1a1a2e;
+  color: #ffffff;
+}
+
+[data-theme='dark'] .navbar-cta {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+[data-theme='dark'] .navbar-cta:hover {
+  background: #ffffff;
+  color: #0b1120;
+}
+
+/* --- Mobile nav — matched to the marketing drawer -------------------------
+   Marketing: 60px bar, logo left, hamburger right, no CTA; drawer is a
+   75vw/300px white panel with centred 1.05rem links divided by hairlines.
+   Docusaurus ships an 83vw translucent panel with a duplicate logo, a left
+   hamburger and left-aligned links, so realign the whole thing.
+
+   Note the breakpoints differ by necessity: Docusaurus collapses at 996px
+   because the docs sidebar folds into this drawer, while marketing collapses
+   at 640px. Forcing them to agree would strand doc navigation between the
+   two widths. */
+
+/* Infima's default is 83vw. */
+:root {
+  --ifm-navbar-sidebar-width: min(75vw, 300px);
+}
+
+@media (max-width: 996px) {
+  /* Logo left, hamburger pinned right, CTAs out — as on marketing. */
+  .navbar__inner {
+    position: relative;
+  }
+
+  .navbar__toggle {
+    position: absolute;
+    right: var(--ifm-navbar-padding-horizontal);
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    color: #1a1a2e;
+  }
+
+  .navbar__items--right {
+    display: none;
+  }
+
+  .navbar-sidebar {
+    background: #ffffff;
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 4px 0 32px rgba(0, 0, 0, 0.12);
+  }
+
+  [data-theme='dark'] .navbar-sidebar {
+    background: #0b1120;
+    border-right-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .navbar-sidebar__backdrop {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  /* Marketing's drawer has no logo of its own — the nav bar stays visible
+     beside it. Keep only the close control. */
+  .navbar-sidebar__brand {
+    height: var(--ifm-navbar-height);
+    padding: 0 2rem;
+    justify-content: flex-end;
+    box-shadow: none;
+  }
+
+  .navbar-sidebar__brand .navbar__brand {
+    display: none;
+  }
+
+  .navbar-sidebar__items {
+    padding-top: 2rem;
+  }
+
+  .navbar-sidebar__item {
+    padding: 0 2rem;
+  }
+
+  /* Scoped to the first panel — the second one is the doc tree, whose rows
+     carry expand carets and should keep Docusaurus's left-aligned layout. */
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link {
+    justify-content: center;
+    padding: 1rem 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--ifm-font-color-base);
+    border-radius: 0;
+  }
+
+  /* Divider between rows rather than under each — the hidden CTA rows below
+     still count for :last-child, so a trailing rule would hang under Contact. */
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item {
+    margin-top: 0;
+  }
+
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item + .menu__list-item {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  [data-theme='dark']
+    .navbar-sidebar__item:first-child
+    > .menu__list
+    > .menu__list-item
+    + .menu__list-item {
+    border-top-color: rgba(255, 255, 255, 0.08);
+  }
+
+  /* Marketing hides both CTAs below 640px; keep the drawer to the five links.
+     Hide the row, not just the link, so it contributes no divider. */
+  .navbar-sidebar .menu__list-item:has(> .navbar-download-app),
+  .navbar-sidebar .menu__list-item:has(> .navbar-cta) {
+    display: none;
+  }
+
+  .navbar-sidebar .menu__link svg[class*='iconExternalLink'] {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --ifm-navbar-height: 60px;
+    --ifm-navbar-padding-horizontal: 1.25rem;
+  }
 }
 
 /* Blog readability in dark mode */

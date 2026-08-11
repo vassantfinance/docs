@@ -27,6 +27,26 @@ const config: Config = {
   // to 'granted' and writes a `va_consent` cookie scoped to the parent
   // domain so consent is shared with the marketing site (vassantfinance.com).
   headTags: [
+    // Space Grotesk — matches the marketing site (vassantfinance.com).
+    {
+      tagName: 'link',
+      attributes: { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap',
+      },
+    },
     {
       tagName: 'script',
       attributes: {},
@@ -34,7 +54,7 @@ const config: Config = {
         'window.dataLayer = window.dataLayer || [];',
         'function gtag(){dataLayer.push(arguments);}',
         "gtag('js', new Date());",
-        "var vaGranted = /(^|;\\s*)va_consent=granted(;|$)/.test(document.cookie);",
+        'var vaGranted = /(^|;\\s*)va_consent=granted(;|$)/.test(document.cookie);',
         "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:vaGranted?'granted':'denied'});",
         "gtag('config','G-N6WM1LQ0YF');",
       ].join('\n'),
@@ -83,17 +103,27 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/og.png',
+    // Light-locked to match the marketing site, which has no theme switcher.
+    // The dark styles in custom.css / index.module.css are all still live —
+    // flip `disableSwitch` back to false to bring the toggle (and dark) back.
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
+      disableSwitch: true,
       respectPrefersColorScheme: false,
     },
+    // Mirrors the marketing nav (js/layout.js) link-for-link so the two sites
+    // read as one. No `title` — the wordmark lives in the logo lockup.
     navbar: {
-      title: 'Vassant',
       logo: {
-        alt: 'Vassant Logo',
-        src: 'img/logo.png',
+        alt: 'Vassant',
+        src: 'img/logo-full.svg',
+        srcDark: 'img/logo-full-light.svg',
+        href: 'https://vassantfinance.com',
+        target: '_self',
       },
       items: [
+        { href: 'https://vassantfinance.com', label: 'Home', position: 'left' },
+        { href: 'https://vassantfinance.com/about.html', label: 'About', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -101,15 +131,18 @@ const config: Config = {
           label: 'Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { href: 'https://vassantfinance.com/contact.html', label: 'Contact', position: 'left' },
         {
-          href: 'https://vassantfinance.com',
-          label: 'Main site',
+          href: 'https://vassantfinance.com/#waitlist-form',
+          label: 'Download the App',
           position: 'right',
+          className: 'navbar-download-app',
         },
         {
-          href: 'https://github.com/vassantfinance/docs',
-          label: 'GitHub',
+          href: 'https://vassantfinance.com/#waitlist-form',
+          label: 'Sign up',
           position: 'right',
+          className: 'navbar-cta',
         },
       ],
     },

@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
@@ -13,15 +14,29 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className={styles.heroTitle}>
+        {/* The wordmark is the logo lockup; the h1 stays for a11y/SEO. Two
+            files rather than a CSS filter — a filter would recolor the mark. */}
+        <Heading as="h1" className={styles.heroTitleSr}>
           {siteConfig.title}
         </Heading>
+        <img
+          className={styles.heroLogoLight}
+          src={useBaseUrl('/img/logo-full.svg')}
+          alt=""
+          aria-hidden="true"
+        />
+        <img
+          className={styles.heroLogoDark}
+          src={useBaseUrl('/img/logo-full-light.svg')}
+          alt=""
+          aria-hidden="true"
+        />
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className={clsx('button button--lg', styles.primaryButton)} to="/docs/intro">
             Read the docs →
           </Link>
-          <Link className="button button--outline button--secondary button--lg" to="/blog">
+          <Link className={clsx('button button--lg', styles.secondaryButton)} to="/blog">
             Latest updates
           </Link>
         </div>
