@@ -7,13 +7,13 @@ authors: [vassant_team]
 
 ## Who We Are
 
-`Vassant` is a B2C financial technology platform designed to be the decision-making hub for investors by replacing "blind investing" with a structured, strategic layer. While traditional brokerages profit from high trading frequency and short-term volatility, Vassant serves the long-term investor to help start building lasting wealth with confidence.
+`Vassant` is a B2C financial technology platform designed to be the decision-making hub for investors through our role as a structured, strategic layer. While traditional brokerages profit from high trading frequency and short-term volatility, Vassant serves the long-term investor by allowing them to more effectively build lasting wealth with confidence.
 
 {/* truncate */}
 
 ## Industry Context
 
-Studies show that millennials have [30% less wealth](https://www.cnbc.com/2024/04/26/wealth-gap-between-millennials-new-class-war.html) at age 35 than the Baby Boomer generation, requiring more stringent capital allocation practices to fill the gap.
+At the top of the funnel is the overarching problem: studies show that millennials have [30% less wealth](https://www.cnbc.com/2024/04/26/wealth-gap-between-millennials-new-class-war.html) at age 35 than the Baby Boomer generation, requiring more stringent capital allocation practices to fill the gap.
 
 But when we take a look at how investors are choosing to grow their wealth to make up for the difference, data shows that over the past 60+ years, the holding time of a security has decreased from [8 years](https://www.weforum.org/stories/2021/12/long-term-investing-decline/) to just under one year, highlighting the increased focus on short-term trading.
 
@@ -29,13 +29,13 @@ Compounding the advisor shortage is a critical disconnect between investor expec
 
 However, such high expectations creates planning risks and sets the stage for investor disappointment. 
 
-Investors making financial decisions based on unreasonably rich long-term returns will lead to a higher likelihood of excessive risk and poorer asset allocation decisions, further delaying critical life milestones such as home purchases and family planning. The magnitude of this expectations gap represents both a significant market risk and a critical need for education-focused advisory services that can set realistic expectations and guide sound personal finance.
+Investors making financial decisions based on unusually rich long-term returns will lead to a higher likelihood of excessive risk-taking and poorer asset allocation decisions, further delaying critical life milestones such as home purchases and family planning. The magnitude of this expectations gap represents both a significant market risk and a critical need for education-focused advisory services that can set realistic expectations and guide sound personal finance.
 
 ## The Problem
 
-### The Retail Underperformance & Long-Term Focus Gap
+### The Underperformance & Long-Term Focus Gap
 
-Through extensive research and market analysis, we have identified the core gap in the capital markets ecosystem: retail investors face a systemic "underperformance gap" driven by behavioral biases, short-term thinking, and hyperactive data feeds. Underscoring that consumer dilemma are four main problem drivers:
+Through extensive research and market analysis, we have identified the core gap in the capital markets ecosystem: investors face a systemic "underperformance gap" driven by behavioral biases, short-term thinking, and hyperactive data feeds. Underscoring that consumer dilemma are four main problem drivers:
 
 - **Market Underperformance:** [Over a 30-year period](https://lanningfinancial.com/why-the-average-investor-underperforms-the-market/) ending in 2021, according to Lanning Financial, the average equity investor earned 7.13% per year, while the S&P 500 achieved a 10.65% annual return.
 - **Short-Termism:** The average holding period for U.S. shares has plummeted from [8 years](https://www.weforum.org/stories/2021/12/long-term-investing-decline/) in 1960 to just [5.5 months](https://www.reuters.com/article/markets/stocks/buy-sell-repeat-no-room-for-hold-in-whipsawing-markets-idUSKBN24Z101/) today, driven by emotional decision-making, increased investment accessibility, and greater availability of investment information.
@@ -48,55 +48,43 @@ Through extensive research and market analysis, we have identified the core gap 
 
 As we began the ideation process to improve investor outcomes, we arrived at our final product: a decision-making hub for long-term investors on an online platform called “Vassant.” 
 
-The name is derived from “en passant,” a special chess move that allows a pawn to capture an opponent’s pawn that has just moved two squares forward from its starting position and landed beside it. We used this move as a basis for the name because of how it embodies the idea of taking the initiative and executing a disciplined, accretive strategy. The ‘V’ represents creating value through higher-quality investment decisions.
+The name is derived from “en passant,” a special chess move that allows a pawn to capture an opponent’s pawn that has just moved two squares forward from its starting position and landed beside it. We used this move as a basis for the name because of how it embodies the idea of taking the initiative and executing a lucrative strategy. The ‘V’ represents creating value through higher-quality investment decisions.
 
 Vassant has **three overarching goals**: 
 1. To tangibly improve the ideation and execution of one’s investment and capital allocation strategies;
-2. Increase conviction in one’s long-term investment decisions; and
-3. Enhance the fundamental understanding of long-term decisions
+2. To increase conviction in one’s long-term investment decisions; and
+3. To enhance the fundamental understanding of long-term investing and the nuances involved
 
 Vassant executes these goals through **three core pillars**:
 
 - **Investment Organization & Multi-Account Management:** Users can manage more than one account in a structured manner, set capital allocation targets, document position research, and define "next purchase" prices to maintain a disciplined thesis.
-- **Capital Allocation Framework:** A system to map monthly investable cash flow and optimize allocations across tax-conscious accounts (Roth IRAs, HSAs, 401(k)s).
-- **Fundamental Education & Templated Case Studies:** Learning modules and public equity case studies integrated directly into the user profile to help move from "price-following" to "value-understanding".
+- **Capital Allocation Framework:** A system to map monthly investable cash flow and optimize allocations across tax-conscious accounts (Brokerages, IRAs, HSAs, 401(k)s).
+- **Knowledge Base & Case Studies:** A core library of niche investment concepts driving the most successful stocks of the past several decades. Users may also discover currently over 15 real world case studies applying these concepts.
 
 ## The Customers Who Benefit Most
 
-Investors new to the space benefit through the addition of a guardrailed workflow and "a place to start" in their investing decisions. Someone who would derive the most value out of our platform is someone who seeks structured management and ultimate control, enabling them to track their cash and decision-making over their investment lifecycle.
+Someone who would derive the most value out of our platform is someone who seeks **structured management** and **ultimate control**, enabling them to track their cash and decision-making over the entire investment lifecycle. These are investors who manage their own accounts and prefer to have a strong understanding of where their cash goes over time.
+
+Investors new to the space also benefit through the addition of a guardrailed workflow and **“a place to start”** in their investing decisions. These individuals would also be able to avoid the mistakes many make early on in their investing careers.
 
 ## Who Is It For?
 
-- _The Motivated Learner:_ You want a better process and higher financial literacy.
-- _The Fundamental Investor:_ You pick individual stocks or specialized ETFs and want to document valuations, research, and theses to gain extra conviction in your investments.
+- _The Fundamental Investor:_ You invest in individual stocks and/or ETFs and want to not only organize disciplined buying schedules but also document research, valuation, and theses to gain extra conviction in your investments.
 - _The Precise Capital Allocator:_ You tightly manage your own money and want maximum control and organization over how your cash gets allocated across different accounts.
+- _The Motivated Learner:_ You want a better process and aim to achieve enhanced financial literacy.
 
-Vassant isn't just another tool; it is the **essential strategic layer** that turns fragmented data into a clear, actionable roadmap which allows retail investors to stop following the crowd and start building lasting wealth with confidence.
+Vassant isn't just another tool; it is the **essential strategic layer** that turns fragmented data into a clear, actionable roadmap which allows investors to start building lasting wealth with confidence.
 
-## How We're Different
+## Industry Drivers
 
-Vassant differentiates itself through five core strategic advantages compared to competition:
+Vassant's creation is at the cross-section of the following trends:
 
-- **User Data Ecosystem:** Vassant unifies siloed financial data into synergized, personalized frameworks.
-- **Intangible Assets (Long-Term Branding):** The platform stands out from short-term market noise by specifically targeting and aligning with the needs of long-term investors.
-- **Integrated Tech Stack:** Utilization of Plaid for account syncing, Twelve Data for real-time pricing, and planned IRS integrations for tax-related data.
-- **Commercial-Ready Financial Expertise:** Building great investing products requires financial expertise, but sourcing that talent from traditional finance is incredibly difficult. Between strict compliance risks and regulatory hurdles like FINRA Rule 3270, industry professionals face massive conflicts of interest that limit their availability for a startup. On top of that, standard financial education tends to produce a rigid view of market theory, heavily influenced by industry incentives. Our background is built differently. We anchor our approach to investment management in the proven methods of investing legends, focusing on rigorous fundamental analysis, long-term theory, and high-conviction investing behavior.
-- **Switching Costs (Investment Behavior Documentation):** By mapping complex ideas over a user's unique investment journey, Vassant creates high-friction, non-portable data assets.
-
-## Market Opportunity & Growth Tailwinds
-
-The convergence of increased retail participation, underperformance, and a growing demand for financial clarity has created a massive opening for specialized investment strategy platforms. Vassant operates specifically within the [$5 billion Online Investment Platform market](https://www.thebusinessresearchcompany.com/report/online-investment-platform-global-market-report), while directly benefiting from the massive structural growth of the broader estimated [$75 billion global investment app market](https://market.us/report/investment-apps-market/).
-
-## Industry Growth Drivers & Tailwinds
-
-Vassant's core market is positioned for significant expansion through 2030:
-
-- **Technological Shift:** Lower barriers to entry for tech development and increased mobile device penetration have democratized access to investment platforms, leaving a larger percentage of the retail investor population with a need for investment tools to aid their workflows.
-- **Personalization Trends:** With increased retail investor participation comes an increasing demand for personalized financial tools to allow users to gain a better understanding of investment data and performance.
+- **Technological Shift:** Lower barriers to entry for tech development and increased mobile device penetration have democratized access to informational resources, leaving a larger percentage of the investor population with a need for investment tools to aid organization and discipline in their workflows.
+- **Personalization Trends:** With increased investor participation comes an increasing demand for personalized financial tools to allow users to tailor their workflows to their own investing styles.
 
 ## Total Addressable Market (TAM)
 
-Vassant targets two distinct user segments based on their depth of financial engagement:
+There are two distinct user segments based on their depth of financial engagement:
 
 **Users of third-party financial apps**
 
@@ -112,8 +100,8 @@ Vassant targets two distinct user segments based on their depth of financial eng
 
 On average, investors underperform the market. This is unacceptable; we believe investors deserve better returns, more transparency, and better organization.
 
-But the problem isn't a lack of information. AI and research terminals have democratized access to financial data that has made analysis as easy as ever.
+**But the problem isn't a lack of information**. AI and research terminals have democratized access to financial data that has made analysis as easy as ever.
 
 The real challenge is staying rational while simultaneously filtering, internalizing, and organizing that information into a personalized and structured investment process that can be applied consistently over time.
 
-This is where Vassant comes in.
+***This is where Vassant comes in.***
