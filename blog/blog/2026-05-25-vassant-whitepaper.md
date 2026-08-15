@@ -7,7 +7,7 @@ authors: [vassant_team]
 
 ## Who We Are
 
-`Vassant` is a B2C financial technology platform designed to bridge the performance gap for investors by replacing "blind trust" with a structured, strategic layer. While traditional brokerages profit from high trading frequency and short-term volatility, Vassant serves as a long-term sidekick to help start building lasting wealth with confidence.
+`Vassant` is a B2C financial technology platform designed to be the decision-making hub for investors by replacing "blind investing" with a structured, strategic layer. While traditional brokerages profit from high trading frequency and short-term volatility, Vassant serves the long-term investor to help start building lasting wealth with confidence.
 
 {/* truncate */}
 
