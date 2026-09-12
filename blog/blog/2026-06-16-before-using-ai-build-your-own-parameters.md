@@ -63,7 +63,7 @@ Finally the most obvious part of the process is to be OK with risk. This is the 
 
 # Yeah, But What About AI?!
 
-We get it, some will be tempted to just plug everything into AI – we're not naive (and no, that em dash is not AI in action). Studies have shown the effectiveness of AI as it navigates the markets. A study released recently by the [Stanford School of Business](https://www.gsb.stanford.edu/) found that an AI analyst outperformed a fund manager by 600% when actioning upon data between 1990 and 2020. And companies like [Robinhood](https://robinhood.com/) are begging to fold them into their product suite.
+We get it, some will be tempted to just plug everything into AI – we're not naive (and no, that em dash is not AI in action). Studies have shown the effectiveness of AI as it navigates the markets. A study released recently by the [Stanford School of Business](https://www.gsb.stanford.edu/) found that an AI analyst outperformed a fund manager by 600% when actioning upon data between 1990 and 2020. And companies like [Robinhood](https://robinhood.com/) are beginning to fold them into their product suite.
 
 So why us and not them, or, it? We know that users still want control. And people still want to learn on their own. Those 600% returns are not guaranteed when applied to the modern, daily market, and that's why it's more important than ever to learn principles and standard processes of investing so you can be prepared for what rears around the corner.
 
