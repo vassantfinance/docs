@@ -26,7 +26,7 @@ As the incremental cost of creating content drops to zero, the web is being floo
 
 Much of this content is meant to click-farm rather than generate insightful commentary.
 
-![The Rise of AI-Generated Content Graph](</blog/blog/Assets and Pictures/091926/aivshuman.jpg>)
+![The Rise of AI-Generated Content Graph](<Assets and Pictures/091926/aivshuman.jpg>)
 <br />
 *Source: NP Digital*
 
@@ -44,7 +44,7 @@ Heightened volatility and greater access to investment trading platforms have co
 
 Just take a look at this data from the World Economic Forum in 2021.
 
-![Holding Period of Stocks in Years](</blog/blog/Assets and Pictures/091926/worldeconomic forum.jpg>)
+![Holding Period of Stocks in Years](<Assets and Pictures/091926/worldeconomic forum.jpg>)
 <br />
 *Source: The World Economic Forum*
 
@@ -94,7 +94,7 @@ And that’s what today’s article is about.
 
 Investing can sometimes be like a game of telephone:
 
-![Telephone Game Illustration](</blog/blog/Assets and Pictures/091926/telephone.png>)
+![Telephone Game Illustration](<Assets and Pictures/091926/telephone.png>)
 <br />
 *Source: LinkedIn*
 
@@ -147,7 +147,7 @@ This report is especially useful because it also outlines the negatives.
 
 In addition, by law, every 10K report MUST disclose the material risks facing the business, and these risk factors are located in Item 1A of Part I:
 
-![Amazon 10-K Index Item 1A](</blog/blog/Assets and Pictures/091926/amazonrisk.png>)
+![Amazon 10-K Index Item 1A](<Assets and Pictures/091926/amazonrisk.png>)
 <br />
 *Source: Amazon 2026 10K*
 
@@ -180,7 +180,7 @@ A 10-K may tell you how much revenue a company generated, while an investor pres
 
 Take **Kinsale Capital’s Investor Slides** from 2026, which include a summary of market share fluctuations since 2001 alongside a eakdown of current competitors in their specific sub-industry:
 
-![Kinsale Capital Market Share Slide](</blog/blog/Assets and Pictures/091926/kinsaleinvestor.webp>)
+![Kinsale Capital Market Share Slide](<Assets and Pictures/091926/kinsaleinvestor.webp>)
 <br />
 *Source: Kinsale Capital Featured Presentation*
 
@@ -213,7 +213,7 @@ Let’s take an example.
 
 Medpace Holdings is run by August Troendle, the Founder, President, and CEO.
 
-![August Troendle Medpace CEO](</blog/blog/Assets and Pictures/091926/troendle.webp>)
+![August Troendle Medpace CEO](<Assets and Pictures/091926/troendle.webp>)
 <br />
 *Source: Cincinnati Business Courier*
 
@@ -237,7 +237,7 @@ He couldn’t care less if the stock price dropped 10% after earnings because of
 
 Notice how Medpace only buys back significant tranches of shares during periods of depressed prices, such as during 2022 and 2025:
 
-![Medpace Share Repurchases Chart](</blog/blog/Assets and Pictures/091926/medpallocation.webp>)
+![Medpace Share Repurchases Chart](<Assets and Pictures/091926/medpallocation.webp>)
 <br />
 Source: Fiscal.AI Dashboard
 
@@ -263,7 +263,7 @@ After making your own decision, it can actually be quite beneficial to stress-te
 
 Warren Buffett and Charlie Munger were great investors, but what made them powerful was **their minds put together.**
 
-![Warren Buffett and Charlie Munger](</blog/blog/Assets and Pictures/091926/charliewarren.webp>)
+![Warren Buffett and Charlie Munger](<Assets and Pictures/091926/charliewarren.webp>)
 
 *Source: Daniel Scrivner*
 
@@ -346,7 +346,7 @@ Industries, preferences, regulation, and consumer behavior are dynamic forces th
 
 The best investors understand they will never have a crystal ball, and they will never be right 100% of the time.
 
-![Peter Lynch Photo](</blog/blog/Assets and Pictures/091926/lynchpeter.webp>)
+![Peter Lynch Photo](<Assets and Pictures/091926/lynchpeter.webp>)
 
 > “In this business, if you're good, you're right six times out of ten. **You're never going to be right nine times out of ten**” - Peter Lynch
 
@@ -368,7 +368,7 @@ I love writing personal anecdotes so let me offer you an example.
 
 I used to source many of my stock ideas from YouTube. It was over 2 years ago when I first found Lululemon ($LULU) through an account I followed frequently (see green arrow below for when I started to research the business).
 
-![Lululemon Stock Chart](</blog/blog/Assets and Pictures/091926/luluchart.png>)
+![Lululemon Stock Chart](<Assets and Pictures/091926/luluchart.png>)
 <br />
 *Source: Fiscal.AI Dashboard*
 
@@ -417,7 +417,7 @@ In those situations, you should not be afraid to increase your conviction and th
 
 You can add more along the way up if your position target and conviction support it:
 
-![HEICO Stock Chart](</blog/blog/Assets and Pictures/091926/heico.webp>)
+![HEICO Stock Chart](<Assets and Pictures/091926/heico.webp>)
 <br />
 *Source: Fiscal.AI Dashboard*
 
@@ -440,13 +440,13 @@ Because every investment opportunity will look different on the surface.
 
 One quality company may be growing revenue at 20%+ per year and be **fairly priced**:
 
-![ServiceNow Revenue Chart](</blog/blog/Assets and Pictures/091926/servicenow.webp>)
+![ServiceNow Revenue Chart](<Assets and Pictures/091926/servicenow.webp>)
 <br />
 *Source: Fiscal AI Dashboard*
 
 … While another steady compounder may be growing at 5%, but be **unreasonably cheap**:
 
-![PepsiCo Revenue and FCF Yield Chart](</blog/blog/Assets and Pictures/091926/pepsico.webp>)
+![PepsiCo Revenue and FCF Yield Chart](<Assets and Pictures/091926/pepsico.webp>)
 <br />
 *Source: Fiscal AI Dashboard*
 
@@ -470,7 +470,7 @@ These standards allow you to form a complete, well-reasoned (and less biased) fr
 
 This ensures you don’t leave any opportunities behind and that you are using the same exact ideation funnel to arrive at a conclusion before you start the stress-test phase.
 
-![Investable Ideas Funnel](</blog/blog/Assets and Pictures/091926/funnel.webp>)
+![Investable Ideas Funnel](<Assets and Pictures/091926/funnel.webp>)
 
 For me, that process starts with understanding the business.
 - What does the company do?
@@ -496,7 +496,7 @@ If it does, you are relying on memory to remember why you bought the investment,
 
 ***Writing it down is the start of something great.***
 
-![Writing in Journal](</blog/blog/Assets and Pictures/091926/2024_02_05-Journally_SHOT11b-16_1x1_a2cdc71e-6a47-4ddd-8c97-b7b44f3e14b6.jpg>)
+![Writing in Journal](<Assets and Pictures/091926/2024_02_05-Journally_SHOT11b-16_1x1_a2cdc71e-6a47-4ddd-8c97-b7b44f3e14b6.jpg>)
 *Source: Journally*
 
 A documented thesis gives you something to return to when emotions begin influencing your decisions.
