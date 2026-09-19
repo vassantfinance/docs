@@ -3,6 +3,11 @@ capital_allocation:
   permalink: /capital-allocation
   description: How to think about where your money should go and why.
 
+conviction:
+  label: Conviction
+  permalink: /conviction
+  description: Developing confidence in how you invest your money.
+
 fintech:
   label: Fintech
   permalink: /fintech
