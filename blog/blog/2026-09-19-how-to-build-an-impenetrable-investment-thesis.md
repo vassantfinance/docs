@@ -16,7 +16,7 @@ For one, **information has never travelled quicker**.
 
 In the **1800s**, news traveled via ships and horseback, taking weeks or months until delivery before the invention of the electric telegraph, compressing the delivery time into minutes.
 
-Throughout the **1900s**, radio and 24-hour cable television turned news consumption into a real-time broadcast.
+Throughout the **1900s**, radio and 24-hour cable television turned news consumption into a real-time oadcast.
 
 **Today**, smartphone networks and social media platforms deliver breaking news globally in milliseconds, making information distribution nearly instantaneous (and more frequent).
 
@@ -27,7 +27,7 @@ As the incremental cost of creating content drops to zero, the web is being floo
 Much of this content is meant to click-farm rather than generate insightful commentary.
 
 ![The Rise of AI-Generated Content Graph](</blog/blog/Assets and Pictures/091926/aivshuman.jpg>)
-<br>
+<br />
 *Source: NP Digital*
 
 AI-generated content now ***outnumbers*** human-created content.
@@ -45,7 +45,7 @@ Heightened volatility and greater access to investment trading platforms have co
 Just take a look at this data from the World Economic Forum in 2021.
 
 ![Holding Period of Stocks in Years](</blog/blog/Assets and Pictures/091926/worldeconomic forum.jpg>)
-<br>
+<br />
 *Source: The World Economic Forum*
 
 Directly from this article is the following quote:
@@ -95,7 +95,7 @@ And that’s what today’s article is about.
 Investing can sometimes be like a game of telephone:
 
 ![Telephone Game Illustration](</blog/blog/Assets and Pictures/091926/telephone.png>)
-<br>
+<br />
 *Source: LinkedIn*
 
 Information can be distorted, lost, or misinterpreted from the original 10-K, earnings call, or expert interview.
@@ -148,7 +148,7 @@ This report is especially useful because it also outlines the negatives.
 In addition, by law, every 10K report MUST disclose the material risks facing the business, and these risk factors are located in Item 1A of Part I:
 
 ![Amazon 10-K Index Item 1A](</blog/blog/Assets and Pictures/091926/amazonrisk.png>)
-<br>
+<br />
 *Source: Amazon 2026 10K*
 
 Consider this:
@@ -166,7 +166,7 @@ Investor presentations are another excellent source of information because they 
 
 They may include:
 - Market share data
-- Revenue and margin breakdowns
+- Revenue and margin eakdowns
 - Customer segmentation
 - Geographic exposure
 - Long-term financial targets
@@ -178,10 +178,10 @@ Investor slides often provide context that is difficult to find in standard fina
 
 A 10-K may tell you how much revenue a company generated, while an investor presentation may help explain where that revenue came from, how it sizes up against the most relevant competitors, and that revenue translates to market share over time.
 
-Take **Kinsale Capital’s Investor Slides** from 2026, which include a summary of market share fluctuations since 2001 alongside a breakdown of current competitors in their specific sub-industry:
+Take **Kinsale Capital’s Investor Slides** from 2026, which include a summary of market share fluctuations since 2001 alongside a eakdown of current competitors in their specific sub-industry:
 
 ![Kinsale Capital Market Share Slide](</blog/blog/Assets and Pictures/091926/kinsaleinvestor.webp>)
-<br>
+<br />
 *Source: Kinsale Capital Featured Presentation*
 
 Finding this information second-hand would usually be paywalled or generalized without the context of each player and the change of market share over time.
@@ -214,10 +214,10 @@ Let’s take an example.
 Medpace Holdings is run by August Troendle, the Founder, President, and CEO.
 
 ![August Troendle Medpace CEO](</blog/blog/Assets and Pictures/091926/troendle.webp>)
-<br>
+<br />
 *Source: Cincinnati Business Courier*
 
-In February 2026, he hosted the Q4 2025 earnings call and these were his opening remarks:
+In Feuary 2026, he hosted the Q4 2025 earnings call and these were his opening remarks:
 
 > “Good day, everyone. ***Cancellations were elevated again in Q4***. Backlog cancellations, in absolute and percent terms, were the highest they've been in over a year. This resulted in a lower than anticipated net book-to-bill ratio of 1.04.” - August Troendle
 
@@ -238,7 +238,7 @@ He couldn’t care less if the stock price dropped 10% after earnings because of
 Notice how Medpace only buys back significant tranches of shares during periods of depressed prices, such as during 2022 and 2025:
 
 ![Medpace Share Repurchases Chart](</blog/blog/Assets and Pictures/091926/medpallocation.webp>)
-<br>
+<br />
 Source: Fiscal.AI Dashboard
 
 This is a clear example of **true discipline in capital allocation.**
@@ -267,7 +267,7 @@ Warren Buffett and Charlie Munger were great investors, but what made them power
 
 *Source: Daniel Scrivner*
 
-They each brought a different perspective to the table that made an investment rationale bulletproof.
+They each ought a different perspective to the table that made an investment rationale bulletproof.
 
 Think about the way this works when more than one person can stress-test your thesis:
 
@@ -369,12 +369,12 @@ I love writing personal anecdotes so let me offer you an example.
 I used to source many of my stock ideas from YouTube. It was over 2 years ago when I first found Lululemon ($LULU) through an account I followed frequently (see green arrow below for when I started to research the business).
 
 ![Lululemon Stock Chart](</blog/blog/Assets and Pictures/091926/luluchart.png>)
-<br>
+<br />
 *Source: Fiscal.AI Dashboard*
 
-I performed quite a bit of fundamental analysis, market research, and even first-hand surveys through Reddit on opinions of the brand.
+I performed quite a bit of fundamental analysis, market research, and even first-hand surveys through Reddit on opinions of the and.
 
-I came to the conclusion that the brand moat was intact, there was still demand for the product (I forecasted this demand to continue), and the market was selling the business off ***irrationally***.
+I came to the conclusion that the and moat was intact, there was still demand for the product (I forecasted this demand to continue), and the market was selling the business off ***irrationally***.
 
 So, I took a position.
 
@@ -382,7 +382,7 @@ I saw a quick **~40% gain** in the coming months, only to see that profit disapp
 
 As I saw my position falter, I did some more conceptual analysis and realized I underestimated how weak their advantages were.
 
-I quickly learned that vertical integration and brand advantage does not always stand the test of time.
+I quickly learned that vertical integration and and advantage does not always stand the test of time.
 
 It was in late 2025 that I sold. I was fortunate to realize this **before losing a significant proportion of my original capital**.
 
@@ -418,7 +418,7 @@ In those situations, you should not be afraid to increase your conviction and th
 You can add more along the way up if your position target and conviction support it:
 
 ![HEICO Stock Chart](</blog/blog/Assets and Pictures/091926/heico.webp>)
-<br>
+<br />
 *Source: Fiscal.AI Dashboard*
 
 The key is finding the right balance between sticking to your guns amidst the volatility and remaining intellectually flexible.
@@ -441,13 +441,13 @@ Because every investment opportunity will look different on the surface.
 One quality company may be growing revenue at 20%+ per year and be **fairly priced**:
 
 ![ServiceNow Revenue Chart](</blog/blog/Assets and Pictures/091926/servicenow.webp>)
-<br>
+<br />
 *Source: Fiscal AI Dashboard*
 
 … While another steady compounder may be growing at 5%, but be **unreasonably cheap**:
 
 ![PepsiCo Revenue and FCF Yield Chart](</blog/blog/Assets and Pictures/091926/pepsico.webp>)
-<br>
+<br />
 *Source: Fiscal AI Dashboard*
 
 If you evaluate each company based on whichever characteristic happens to excite you the most, your conclusions will naturally become inconsistent.
