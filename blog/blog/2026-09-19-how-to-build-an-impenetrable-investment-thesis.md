@@ -89,8 +89,7 @@ The most important tool: **Building a concrete thesis, and using that thesis thr
 
 And that’s what today’s article is about.
 
-
-# 1. Finding Information From The Source
+## 1. Finding Information From The Source
 
 Investing can sometimes be like a game of telephone:
 
@@ -124,7 +123,7 @@ The most effective way to create a bias-free thesis is to digest the information
 
 This includes:
 
-## a. Reports: 10-Ks and 10-Qs
+### a. Reports: 10-Ks and 10-Qs
 
 A company’s annual and quarterly filings are some of the most valuable resources available to investors.
 
@@ -160,7 +159,7 @@ Consider this:
 
 A YouTube video usually does not suffice for this analysis.
 
-## b. Investor Slides: Presentations From the Company
+### b. Investor Slides: Presentations From the Company
 
 Investor presentations are another excellent source of information because they often provide a more visual explanation of how management views the business and its opportunity.
 
@@ -188,7 +187,7 @@ Finding this information second-hand would usually be paywalled or generalized w
 
 **Investor slides are free!**
 
-## c. Earnings Calls: Listening to Management Speak
+### c. Earnings Calls: Listening to Management Speak
 
 Earnings calls are where you can hear management explain the numbers and, perhaps more importantly, respond to questions they were not prepared for.
 
@@ -249,7 +248,7 @@ I have personally chosen to make investment decisions based on how “authentic�
 
 
 
-# 2. Stress-Testing the Thesis
+## 2. Stress-Testing the Thesis
 
 Once you’ve reviewed all information that you deem necessary to make an investment decision, you are best suited to form a thesis.
 
@@ -334,7 +333,7 @@ A business can also be imperfect and still be an attractive investment if the ma
 The more independent perspectives you consider, the more likely you are to recognize where your thesis is strong and where it is fragile.
 
 
-# 3. Keep an Open Mind and DROP YOUR EGO!
+## 3. Keep an Open Mind and DROP YOUR EGO!
 
 One of investors’ biggest obstacles, especially for those with robust experience, is themselves.
 
@@ -426,7 +425,7 @@ The key is finding the right balance between sticking to your guns amidst the vo
 When you master this balance, you’re much more likely to be right 6 times out of 10, as Peter Lynch praises so highly.
 
 
-# 4. Taking Action: Building a Repeatable Process
+## 4. Taking Action: Building a Repeatable Process
 
 So far, we have discussed where to find information, how to stress-test a thesis, and why humility is necessary throughout the process.
 
