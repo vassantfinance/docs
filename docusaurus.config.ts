@@ -163,7 +163,7 @@ const config: Config = {
         },
         {
           href: 'https://vassantfinance.com/#waitlist-form',
-          label: 'Sign up',
+          label: 'Join the Waitlist',
           position: 'right',
           className: 'navbar-cta',
           target: '_self',
