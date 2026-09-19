@@ -27,6 +27,14 @@ const config: Config = {
   // to 'granted' and writes a `va_consent` cookie scoped to the parent
   // domain so consent is shared with the marketing site (vassantfinance.com).
   headTags: [
+    // Google Site Verification
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'google-site-verification',
+        content: '8dtJIX7IqcK3oVyVv1D3LsvYWKx-dWXrcOyT-GSBOTY',
+      },
+    },
     // Space Grotesk — matches the marketing site (vassantfinance.com).
     {
       tagName: 'link',
