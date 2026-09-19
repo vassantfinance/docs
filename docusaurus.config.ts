@@ -103,6 +103,12 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/og.png',
+    metadata: [
+      {
+        name: 'google-site-verification',
+        content: '8dtJIX7IqcK3oVyVv1D3LsvYWKx-dWXrcOyT-GSBOTY',
+      },
+    ],
     // Light-locked to match the marketing site, which has no theme switcher.
     // The dark styles in custom.css / index.module.css are all still live —
     // flip `disableSwitch` back to false to bring the toggle (and dark) back.
