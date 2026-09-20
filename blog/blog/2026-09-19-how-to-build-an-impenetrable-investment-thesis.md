@@ -27,7 +27,7 @@ As the incremental cost of creating content drops to zero, the web is being floo
 Much of this content is meant to click-farm rather than generate insightful commentary.
 
 ![The Rise of AI-Generated Content Graph](<Assets and Pictures/091926/aivshuman.jpg>)
-<br />
+
 *Source: NP Digital*
 
 AI-generated content now ***outnumbers*** human-created content.
@@ -45,7 +45,7 @@ Heightened volatility and greater access to investment trading platforms have co
 Just take a look at this data from the World Economic Forum in 2021.
 
 ![Holding Period of Stocks in Years](<Assets and Pictures/091926/worldeconomic forum.jpg>)
-<br />
+
 *Source: The World Economic Forum*
 
 Directly from this article is the following quote:
@@ -70,7 +70,6 @@ A few months prior to writing the article, Huber recalled a paper reporting on h
 
 The clear conclusion to me?
 
-> [!IMPORTANT]
 > **The market, in aggregate, is becoming more short-term focused. This increases competition in the smaller timeframes, reducing the likelihood of consistent outperformance using trading strategies.**
 
 So where does our edge lie?
@@ -94,7 +93,7 @@ And that’s what today’s article is about.
 Investing can sometimes be like a game of telephone:
 
 ![Telephone Game Illustration](<Assets and Pictures/091926/telephone.png>)
-<br />
+
 *Source: LinkedIn*
 
 Information can be distorted, lost, or misinterpreted from the original 10-K, earnings call, or expert interview.
@@ -147,7 +146,7 @@ This report is especially useful because it also outlines the negatives.
 In addition, by law, every 10K report MUST disclose the material risks facing the business, and these risk factors are located in Item 1A of Part I:
 
 ![Amazon 10-K Index Item 1A](<Assets and Pictures/091926/amazonrisk.png>)
-<br />
+
 *Source: Amazon 2026 10K*
 
 Consider this:
@@ -180,7 +179,7 @@ A 10-K may tell you how much revenue a company generated, while an investor pres
 Take **Kinsale Capital’s Investor Slides** from 2026, which include a summary of market share fluctuations since 2001 alongside a eakdown of current competitors in their specific sub-industry:
 
 ![Kinsale Capital Market Share Slide](<Assets and Pictures/091926/kinsaleinvestor.webp>)
-<br />
+
 *Source: Kinsale Capital Featured Presentation*
 
 Finding this information second-hand would usually be paywalled or generalized without the context of each player and the change of market share over time.
@@ -213,7 +212,7 @@ Let’s take an example.
 Medpace Holdings is run by August Troendle, the Founder, President, and CEO.
 
 ![August Troendle Medpace CEO](<Assets and Pictures/091926/troendle.webp>)
-<br />
+
 *Source: Cincinnati Business Courier*
 
 In Feuary 2026, he hosted the Q4 2025 earnings call and these were his opening remarks:
@@ -237,7 +236,7 @@ He couldn’t care less if the stock price dropped 10% after earnings because of
 Notice how Medpace only buys back significant tranches of shares during periods of depressed prices, such as during 2022 and 2025:
 
 ![Medpace Share Repurchases Chart](<Assets and Pictures/091926/medpallocation.webp>)
-<br />
+
 Source: Fiscal.AI Dashboard
 
 This is a clear example of **true discipline in capital allocation.**
@@ -290,7 +289,6 @@ A strong thesis should be able to survive a reasonable amount of criticism.
 
 And if it can’t, that means it’s time to go back to the drawing board.
 
-> [!IMPORTANT]
 > **Find a friend or community member willing to talk with you. Bounce ideas off them. Tell them to find the holes in your argument. Be willing to accept criticism.**
 
 Another way you can do this is reviewing other opinion pieces online. This will come from the people that have researched the business independently from you. Maybe they will find something you’ve missed.
@@ -317,7 +315,6 @@ If you cannot explain the strongest argument against your investment, you probab
 
 This is where reading both bullish and bearish analyses can be helpful.
 
-> [!IMPORTANT]
 > **A bullish article may help you understand the upside potential, while a bearish article may expose the assumptions required for that upside to occur and the risks to the downside.**
 
 Your job is not to choose the article you like more.
@@ -347,6 +344,8 @@ The best investors understand they will never have a crystal ball, and they will
 
 ![Peter Lynch Photo](<Assets and Pictures/091926/lynchpeter.webp>)
 
+*Source: Celebrity Net Worth*
+
 > “In this business, if you're good, you're right six times out of ten. **You're never going to be right nine times out of ten**” - Peter Lynch
 
 So what does this suggest, practically?
@@ -368,7 +367,7 @@ I love writing personal anecdotes so let me offer you an example.
 I used to source many of my stock ideas from YouTube. It was over 2 years ago when I first found Lululemon ($LULU) through an account I followed frequently (see green arrow below for when I started to research the business).
 
 ![Lululemon Stock Chart](<Assets and Pictures/091926/luluchart.png>)
-<br />
+
 *Source: Fiscal.AI Dashboard*
 
 I performed quite a bit of fundamental analysis, market research, and even first-hand surveys through Reddit on opinions of the and.
@@ -389,7 +388,6 @@ Only time will tell whether this turned out to be the right decision or not.
 
 The lesson learned?
 
-> [!IMPORTANT]
 > **The market does not care how much time you spent researching an investment. It does not care how confident you were when you bought it. It just tells you what everybody thinks about the stock at a given point in time.**
 
 If the underlying business changes and/or you realized you made an error in your initial analysis, the original thesis may no longer be valid.
@@ -417,7 +415,7 @@ In those situations, you should not be afraid to increase your conviction and th
 You can add more along the way up if your position target and conviction support it:
 
 ![HEICO Stock Chart](<Assets and Pictures/091926/heico.webp>)
-<br />
+
 *Source: Fiscal.AI Dashboard*
 
 The key is finding the right balance between sticking to your guns amidst the volatility and remaining intellectually flexible.
@@ -440,13 +438,13 @@ Because every investment opportunity will look different on the surface.
 One quality company may be growing revenue at 20%+ per year and be **fairly priced**:
 
 ![ServiceNow Revenue Chart](<Assets and Pictures/091926/servicenow.webp>)
-<br />
+
 *Source: Fiscal AI Dashboard*
 
 … While another steady compounder may be growing at 5%, but be **unreasonably cheap**:
 
 ![PepsiCo Revenue and FCF Yield Chart](<Assets and Pictures/091926/pepsico.webp>)
-<br />
+
 *Source: Fiscal AI Dashboard*
 
 If you evaluate each company based on whichever characteristic happens to excite you the most, your conclusions will naturally become inconsistent.
@@ -480,7 +478,7 @@ For me, that process starts with understanding the business.
 - What does management do with the cash it generates?
 
 And most importantly:
-> [!IMPORTANT]
+
 > **“Is this business likely to continue creating value over the next 5, 10, or 20 years?”**
 
 Once you understand the business, you can begin evaluating the financials, management team, competitive advantages, industry dynamics, valuation, and risks.
@@ -496,6 +494,7 @@ If it does, you are relying on memory to remember why you bought the investment,
 ***Writing it down is the start of something great.***
 
 ![Writing in Journal](<Assets and Pictures/091926/2024_02_05-Journally_SHOT11b-16_1x1_a2cdc71e-6a47-4ddd-8c97-b7b44f3e14b6.jpg>)
+
 *Source: Journally*
 
 A documented thesis gives you something to return to when emotions begin influencing your decisions.
