@@ -162,7 +162,7 @@ While such a small gesture, such a thing can do wonders for employee morale and 
 
 People feel as if they’re part of a team, rather than a slave for a greedy corporate entity.
 
-![People Laughing Teammates Illustration](<Assets and Pictures/093026/peoplelaughing.png>)
+![People Laughing Teammates Illustration](<Assets and Pictures/093026/peoplelaughing.webp>)
 
 *Source: Quire*
 
@@ -299,7 +299,7 @@ One of the main arguments of this article is that heightened level of execution 
 
 All of these factors are visible in higher margins across the board for Rollins ($ROL) compared to Rentokil ($RTO): 
 
-![Rollins vs Rentokil Financial Comparison Table](<Assets and Pictures/093026/rolvsrtol.png>)
+![Rollins vs Rentokil Financial Comparison Table](<Assets and Pictures/093026/rolvsrtol.webp>)
 
 *Source: Fiscal.AI*
 
@@ -327,7 +327,7 @@ For this valuation model, I am using TTM Free Cash Flow at $619M and a discount 
 
 For growth rates, Rollins has historically grown at 8% organic growth rate over the past 5 years: 
 
-![Rollins Organic Revenue Growth Chart](<Assets and Pictures/093026/rolorganicgrowth.png>)
+![Rollins Organic Revenue Growth Chart](<Assets and Pictures/093026/rolorganicgrowth.webp>)
 
 *Source: Fiscal.AI*
 
@@ -343,7 +343,7 @@ This brings us to the following growth rates:
 - **Year 11-20:** 6%
 - *No growth thereafter (business ceases to exist)*
 
-![Rollins Discounted Cash Flow Valuation Table](<Assets and Pictures/093026/dcf.png>)
+![Rollins Discounted Cash Flow Valuation Table](<Assets and Pictures/093026/dcf.webp>)
 
 From this value, I subtract outstanding debt (~$700M) and add back free cash (~$109M). I arrive at a fair value of **$27.35**, or around ~10% below today’s price of around $30.
 
@@ -353,7 +353,7 @@ Keep in mind, I believe these are pretty conservative. Rollins is much more like
 
 Now let’s create a valuation from a return perspective going forward. ROL has traded at a 45 P/FCF on average over the last 10 years. 
 
-![Rollins Price to Free Cash Flow Historical Chart](<Assets and Pictures/093026/ptofcf.png>)
+![Rollins Price to Free Cash Flow Historical Chart](<Assets and Pictures/093026/ptofcf.webp>)
 
 *Source: Fiscal.AI*
 
@@ -369,4 +369,4 @@ More soon,
 
 Blake at Vassant
 
-![Vassant Finance Logo](<Assets and Pictures/093026/vassantlogo.png>)
+![Vassant Finance Logo](<Assets and Pictures/093026/vassantlogo.webp>)
