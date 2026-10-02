@@ -32,9 +32,9 @@ Their business is split between 4 different segments:
 
 Now that we know the basics, let’s understand what’s going on with the business right now. 
 
-The company ran into some turbulence starting in May 2026: organic lead volumes started to decline for the residential business. This softness persisted throughout the season and continues today. 
+The company ran into some turbulence starting in May 2026: **organic lead volumes started to decline for the residential business**. This softness persisted throughout the season and continues today. 
 
-> “Then you move forward into, as we talk about current environment, this softness has really remained with us this entire time. This extra softness in the leads, where we're talking about double-digit lead declines instead of 4% or 5% lead decline” - Jerry Gahlhoff, U.S. All-Stars Conference (Sept 2026)
+> “Then you move forward into, as we talk about current environment, this softness has really remained with us this entire time. This extra softness in the leads, where we're talking about **double-digit lead declines** instead of 4% or 5% lead decline” - Jerry Gahlhoff, U.S. All-Stars Conference (Sept 2026)
 
 In other words, residential customers are reaching out to Rollins brands less frequently for pest control services. 
 
@@ -52,7 +52,7 @@ But what’s really interesting is that this softness persisted throughout the s
 
 So this indicates there is another dynamic at play. 
 
-What if there was worse customer discovery for Rollins brands? What if, rather than favoring nationally-recognized brands, they are instead reaching out to cheaper, hyperlocal pest control providers? 
+What if there was worse customer discovery for Rollins brands? What if, rather than favoring nationally-recognized brands, they are instead reaching out to **cheaper, hyperlocal pest control providers**? 
 
 This may be happening.
 
@@ -90,11 +90,11 @@ Just a quick note on how Rollins brands are facing this issue:
 
 It’s safe to say Rollins subsidiaries are implementing the right protocols to keep up with changing regulatory frameworks and sustainability concerns.
 
-The product (generally speaking) is not changing.
+**The product (generally speaking) is not changing.**
 
 Rollins’ primary products, as a whole, generally experience little turnover due to technological innovation.
 
-But what’s different (from our initial evidence) appears to be discoverability.
+But what’s different (from our initial evidence) appears to be ***discoverability***.
 
 Residential customers may be changing their behavior during the initial outreach process. Rather than quoting from well-known and reliable brands such as Orkin, they may be searching for the fastest and cheapest option available.
 
@@ -108,7 +108,7 @@ Rollins could also shift the strategy to acquire smaller businesses near denser,
 
 Whatever it is, this is one of those things where you have to trust management is trying everything in their power to work on it. Here’s some evidence: 
 
-> “we also began trying a lot of things. We tried it and this idea that you learn fast by failing fast, and we put a lot of things into place trying to make adjustments. Look, the reality is a lot of them didn't work. A lot of these adjustments that we attempted to make across June and July, they just flat didn't work. There were a couple that did, but that was rare. But we have to encourage our teams, you got to keep trying these things. You got to keep learning.” - Jerry Gahlhoff, U.S. All-Stars Conference (Sept 2026)
+> “...we also began trying a lot of things. We tried it and this idea that you learn fast by failing fast, and we put a lot of things into place trying to make adjustments. Look, the reality is a lot of them didn't work. A lot of these adjustments that we attempted to make across June and July, they just flat didn't work. There were a couple that did, but that was rare. But we have to encourage our teams, **you got to keep trying these things**. You got to keep learning.” - Jerry Gahlhoff, U.S. All-Stars Conference (Sept 2026)
 
 But here is a key risk to consider: 
 
@@ -262,7 +262,7 @@ Regarding societal impact, things are much more positive:
 > “Our brands work closely with their local communities to create an impact through outreach, volunteerism, and donations. Our overarching goal is to create a significant impact in local communities over an extended period of time.” - 2024 10K
 
 Here are some examples:
-- Rollins themselves has partnered with the United Way of Greater Atlanta to support their community by hosting rallies, golf tournaments, contests, and silent auctions to raise funds. They’ve contributed approximately $1 million annually for each of the past five years. Rollins ranked #8 in the top 25 corporate contributors in both 2024 and 2023, compared to ranking #7 and #9 in 2022 and 2021, respectively.
+- Rollins themselves has partnered with the United Way of Greater Atlanta to support their community by hosting rallies, golf tournaments, contests, and silent auctions to raise funds. They’ve contributed approximately $1 million annually for each of the past five years. Rollins ranked **#8** in the top 25 corporate contributors in both 2024 and 2023, compared to ranking #7 and #9 in 2022 and 2021, respectively.
 - Orkin created the *Mosquitoes Don’t Deserve a Drop* program, which donates $25 for every new mosquito service purchased during mosquito season, up to $250,000, on top of pop-up blood drives. They also operate the OrkinServes volunteer program, donating 14,000 hours of community service over 700+ events. 
 - Northwest Exterminating runs “The Good Deed Team” - donating 3,000 homeless care bags, 2,160 backpacks, ~13,000 first responder meals, ~4,300 bilingual books, and ~4,200 gallons of laundry detergent.
 - HomeTeam Pest Defense contributes towards the Servant Heart Good Works Program and Support Our Troops initiatives. They’ve donated over 10,000 pounds of food, $10,000+ of gift cards, and benefited over 20 organizations.
@@ -279,9 +279,9 @@ The stronger the culture, the better chance at sustainable returns.
 
 By putting so much time and effort into their people and culture, Rollins has cultivated tangible advantages over their primary competitors.
 
-Employee morale, career development, health & wellbeing, and community service.
+***Employee morale, career development, health & wellbeing, and community service.***
 
-It all matters. 
+It all matters.
 
 And it’s driving real differences.
 
@@ -291,11 +291,11 @@ In fact, Rollins further improved first-year teammate retention by 12% in 2026.
 
 This translates into a direct cost savings. By reducing turnover and increasing retention, Rollins keeps more of their bottom line that would have otherwise gone into retraining new employees. According to Ken Krause, the CFO of Rollins: 
 
-> “By reducing hiring, by improving retention of just 1,000 teammates, that would represent a savings of almost $15 million” - 2026 Investor Day
+> “By reducing hiring, by improving retention of just 1,000 teammates, that would represent a savings of almost **$15 million**” - 2026 Investor Day
 
 In addition, higher employee retention generates a culture of higher quality execution as a result of fewer project delays. 
 
-One of the main arguments of this article is that heightened level of execution translates into more satisfied customers and better customer relationships, which enables subtle pricing power on top of reduced customer churn. 
+One of the main arguments of this article is that heightened level of execution translates into more satisfied customers and better customer relationships, which enables **subtle pricing power** on top of **reduced customer churn**. 
 
 All of these factors are visible in higher margins across the board for Rollins ($ROL) compared to Rentokil ($RTO): 
 
