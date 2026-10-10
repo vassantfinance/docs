@@ -14,7 +14,7 @@
   - Each account tab can be linked to one connected institution at a time. Adding multiple of the same account type is planned for a future release.
   - **Note:** International (ex-U.S.) holdings are not currently supported by Vassant. When an account that has international holdings is matched with an existing investment account, there will be no new investment cards created for those international holdings. If there already exists a manual position of an international holding, the data will not be updated via sync.
  
-- **Sync Frequency**: Investments made on synced accounts can take up to a day to reflect on the app.
+- **Sync Frequency**: Vassant checks for new data every time you open the Invest tab and whenever your brokerage reports changes. Brokerages usually send updates about once a day, so recent trades can take up to a day to appear.
 
 - **Position Models in Synced Mode**: When the percent allocation of a given position reaches the target threshold, the plan is marked as complete, regardless if the actual percent allocation drops below this value with new syncs. “Watchlist” positions and their respective models are not impacted in “Sync” mode.
 
