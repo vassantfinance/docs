@@ -1,8 +1,12 @@
 {
   "label": "Budget",
   "position": 1,
+  "description": "Pay, expenses, and your Investable Cash Flow.",
+  "customProps": {
+    "icon": "wallet"
+  },
   "link": {
     "type": "generated-index",
-    "description": "Support documentation for Budget."
+    "description": "Tell Vassant what comes in and what goes out. Your budget sets the Investable Cash Flow that everything in Allocations builds on."
   }
 }

@@ -1,3 +1,9 @@
+---
+description: Read the Allocations chart and track your year.
+sidebar_custom_props:
+  icon: chart-column
+---
+
 # General Info & Use
 
 **Total Allocations Chart:** The chart condenses all investment allocation data across all accounts for the current calendar year (January through December), combining expected contributions year-to-date, documented and/or synced contributions, and expected future contributions.

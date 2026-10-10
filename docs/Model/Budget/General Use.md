@@ -1,3 +1,9 @@
+---
+description: Edit your budget and update your cash flow.
+sidebar_custom_props:
+  icon: square-pen
+---
+
 # General Use
 
 **Editing Budget:** A user’s budget model may be changed at any time by pressing the "View budget details" icon at the bottom of the "Budget" subtab in "Model". Users may edit take-home income and expense data by tapping on the original values and entering a new number; entering a ‘0’ in any category will reset the value to zero, excluding it from the budget. To implement changes made to the budget, users must press the “Save Budget” button at the bottom of the page. Any changes made to the budget may be nullified by exiting out of the modal sheet through either swiping down or pressing the back arrow instead.

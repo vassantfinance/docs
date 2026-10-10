@@ -1,3 +1,9 @@
+---
+description: Split your Investable Cash Flow across accounts.
+sidebar_custom_props:
+  icon: split
+---
+
 # Initial Setup
 
 **Overview:** The “Financial Framework” provides a mechanism by which users can allocate all available “Investable Cash Flow” across different investment accounts. The following accounts are currently supported by Vassant: Brokerage, Roth IRA, Traditional IRA, HSA, and Traditional 401(K). By default, the “Financial Framework” is a model that spans a full calendar year (January 1st through December 31st) that repeats infinitely until changed or cancelled. The objective of the framework is to create a recurring yearly model which allocates “Investable Cash Flow,” and then track this allocation incrementally on the “Allocations” dashboard. If a user joins mid-year (June - December, for example), the framework is implemented for the current calendar year with no progress documented yet for the months backdated to January; the model refreshes for the full calendar year in the following year.

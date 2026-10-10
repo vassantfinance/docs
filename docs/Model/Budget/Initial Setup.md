@@ -1,3 +1,9 @@
+---
+description: Enter your take-home pay and monthly expenses.
+sidebar_custom_props:
+  icon: calculator
+---
+
 # Initial App Setup
 
 **Initialization:** During app setup, users will first have the option to create a budget model by tapping “Create Budget” at the top of the “Budget” tab. Here, users are prompted to enter the amount and frequency of take-home pay (not pre-tax income) as well as all monthly expenses deducted from this take-home pay. Values are rounded to the nearest dollar automatically. Expenses are pre-categorized for users.

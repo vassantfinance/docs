@@ -1,3 +1,9 @@
+---
+description: Sync accounts to track contributions for you.
+sidebar_custom_props:
+  icon: refresh-cw
+---
+
 # Upgrading
 
 **Connecting Accounts:** When upgrading to paid, users gain the ability to connect one or more financial institutions to sync investment allocations from multiple accounts. Users are not forced to sync an account when upgrading. To first connect an account, users may go to the sidebar located at the top left of the screen, press “Account Information”, scroll down, then press “Connect your brokerage account.” Users shall follow the prompts to link an account with Vassant. Users may connect more than one financial institution, up to 5 maximum. Additional requests to connect more should be sent to support@vassantfinance.com.

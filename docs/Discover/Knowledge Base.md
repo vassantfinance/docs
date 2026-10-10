@@ -1,3 +1,9 @@
+---
+description: Modules, tracks, quizzes, and Mastery Points.
+sidebar_custom_props:
+  icon: graduation-cap
+---
+
 # Knowledge Base
 
 The "Knowledge Base" is comprised of the following structural components:

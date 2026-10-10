@@ -1,3 +1,9 @@
+---
+description: Add your investment accounts to get started.
+sidebar_custom_props:
+  icon: landmark
+---
+
 # Initial Setup
 
 **Initialization:** The “Invest” section is not correlated to data generated in the "Model" tab. No actions in the “Invest” tab affect any workflows in other tabs in the app either. To begin organizing investments, first add an account by pressing the “Add an Account” button on the “Invest” dashboard or in the editing icon at the top right of the screen. The following accounts are currently supported by Vassant: Brokerage, Roth IRA, Traditional IRA, HSA, and Traditional 401(K).

@@ -1,6 +1,9 @@
 {
   "label": "Model",
   "position": 3,
+  "customProps": {
+    "icon": "sliders-horizontal"
+  },
   "link": {
     "type": "generated-index",
     "description": "Set up your budget and allocations. This is where you tell Vassant what you're working with so the rest of it can do its job."

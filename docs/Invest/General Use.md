@@ -1,3 +1,9 @@
+---
+description: Add, track, and remove investments and watchlists.
+sidebar_custom_props:
+  icon: list-plus
+---
+
 # General Use
 
 - **Getting Started:** Users may enable and disable account sub tabs at any time by pressing the edit icon at the top right of the screen and add or remove accounts. If an account is removed, data is stored in case you ever re-enable it. A user cannot have multiple tabs of the same account type within the invest section in both the paid and free plans.

@@ -1,0 +1,23 @@
+.cardTitleEmoji {
+  font-size: 1.6rem;
+  margin-right: 0.6rem;
+}
+
+/* Tinted tile in the brand primary — pink in light mode, cyan in dark. */
+.cardTitleIcon {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-right: 0.75rem;
+  border-radius: 0.6rem;
+  color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+}
+
+.cardTitleIcon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}

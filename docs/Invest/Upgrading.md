@@ -1,3 +1,9 @@
+---
+description: Connect your brokerage and sync your positions.
+sidebar_custom_props:
+  icon: link
+---
+
 # Upgrading
 
 - **Connecting Institutions**: When upgrading to paid, users gain the ability to connect one or more financial institutions to sync investments from multiple accounts to their portfolio. Users are not forced to sync an account when upgrading. To first connect an account, users may go to the sidebar located at the top left of the screen, press “Account Information,” scroll down, then press “Connect your brokerage account.” Users must follow the prompts from Plaid to connect their institutions to Vassant. Users may connect more than one financial institution, up to 5 maximum. Additional requests to connect more should be sent to support@vassantfinance.com.

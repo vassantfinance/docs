@@ -420,6 +420,28 @@
   background: rgba(0, 207, 255, 0.04);
 }
 
+/* Index-page doc cards — the `article a` rule above turns the whole card cyan
+   and underlined; keep the text neutral like light mode and let the icon tile
+   and hover border carry the accent. Styled to match the pagination cards. */
+[data-theme='dark'] article a.theme-doc-card-container {
+  text-decoration: none;
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+[data-theme='dark'] article a.theme-doc-card-container:hover {
+  border-color: var(--ifm-color-primary);
+  background: rgba(0, 207, 255, 0.04);
+}
+
+[data-theme='dark'] .theme-doc-card-title {
+  color: #f1f5fb;
+}
+
+[data-theme='dark'] .theme-doc-card-description {
+  color: rgba(255, 255, 255, 0.62);
+}
+
 h1,
 h2,
 h3,

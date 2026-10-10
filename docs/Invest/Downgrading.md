@@ -1,3 +1,9 @@
+---
+description: What happens to synced data, Vaults, and prices.
+sidebar_custom_props:
+  icon: unlink
+---
+
 # Downgrading
 
 - **Investment Data Conversion During Unsyncing**: All positions in the “Portfolio” subsection for each investment account subtype retain their original form and relevant data from the last available sync, and nothing is deleted. If there were synced contributions and complementary manual contributions for a single position, the sum of both remains contributes towards the last position size/total percent allocation amount. Syncing will not occur going forward, and any updates to position sizing will have to be manual.

@@ -1,6 +1,9 @@
 {
   "label": "Invest",
   "position": 4,
+  "customProps": {
+    "icon": "trending-up"
+  },
   "link": {
     "type": "generated-index",
     "description": "Once your model is dialed in, this is where the actual investing happens. Day-to-day use, the Vault, and keeping things on track for the long haul."

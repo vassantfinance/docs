@@ -1,3 +1,9 @@
+---
+description: All your research on an investment, in one place.
+sidebar_custom_props:
+  icon: vault
+---
+
 # The Vault
 
 - **Overview:** The “Vault” is designed as a centralized hub where users can collect information and research on a specific investable security. There is one unique “Vault” per investable security located within each investment card.

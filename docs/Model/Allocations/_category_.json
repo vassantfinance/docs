@@ -1,8 +1,12 @@
 {
   "label": "Allocations",
   "position": 2,
+  "description": "Plan where your cash flow goes, then track it.",
+  "customProps": {
+    "icon": "chart-pie"
+  },
   "link": {
     "type": "generated-index",
-    "description": "Support documentation for Allocations."
+    "description": "Decide where your Investable Cash Flow goes each year, then track your contributions against the plan month by month."
   }
 }

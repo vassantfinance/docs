@@ -1,3 +1,9 @@
+---
+description: Real-company case studies and how to unlock them.
+sidebar_custom_props:
+  icon: sparkles
+---
+
 # Spotlight Profiles
 
 **General Information:** The “Spotlights” tab is where case studies appear of real-world stocks and ETFs. These case studies incorporate features from the “Knowledge Base” content to offer users tangible insights related to how certain fundamental characteristics affect long-term share price performance. “Spotlight” profiles are meant to be comprehensive, objective, and unbiased presentations of company fundamentals and information. Vassant serves a curator of public investment data rather than a financial advisor; the “Spotlight” profiles in no way serve as recommendations to buy or sell a security and are purely for information and educational purposes only.

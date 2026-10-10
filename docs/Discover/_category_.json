@@ -1,6 +1,9 @@
 {
   "label": "Discover",
   "position": 2,
+  "customProps": {
+    "icon": "compass"
+  },
   "link": {
     "type": "generated-index",
     "description": "Get the lay of the land and learn how Vassant thinks about investing. Start here if you're new or just want to understand what we're about."
