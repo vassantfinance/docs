@@ -169,17 +169,10 @@ const config: Config = {
           target: '_self',
         },
         {
-          href: 'https://vassantfinance.com/#waitlist-form',
+          href: 'https://vassantfinance.com/#download',
           label: 'Download the App',
           position: 'right',
           className: 'navbar-download-app',
-          target: '_self',
-        },
-        {
-          href: 'https://vassantfinance.com/#waitlist-form',
-          label: 'Join the Waitlist',
-          position: 'right',
-          className: 'navbar-cta',
           target: '_self',
         },
       ],

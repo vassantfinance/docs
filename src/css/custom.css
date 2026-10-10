@@ -124,9 +124,9 @@
   display: none;
 }
 
-/* The CTAs inherit the nav-link treatment (padding, letter-spacing) from
-   Infima and the rule above, but marketing's are bare text at body
-   line-height spaced by a 2rem gap — undo the link styling to match. */
+/* The CTA inherits the nav-link treatment (padding, letter-spacing) from
+   Infima and the rule above, but marketing's is bare text at body
+   line-height — undo the link styling to match. */
 .navbar-download-app {
   padding: 0;
   font-size: 0.875rem;
@@ -146,40 +146,6 @@
 [data-theme='dark'] .navbar-download-app,
 [data-theme='dark'] .navbar-download-app:hover {
   color: #ff2d9b;
-}
-
-.navbar-cta {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 2rem;
-  padding: 0.45rem 1.25rem;
-  border-radius: 9999px;
-  border: 1.5px solid #1a1a2e;
-  color: #1a1a2e;
-  font-size: 0.875rem;
-  font-weight: 600;
-  line-height: 1.7;
-  letter-spacing: normal;
-  white-space: nowrap;
-  transition:
-    background-color 0.2s,
-    color 0.2s,
-    border-color 0.2s;
-}
-
-.navbar-cta:hover {
-  background: #1a1a2e;
-  color: #ffffff;
-}
-
-[data-theme='dark'] .navbar-cta {
-  border-color: #ffffff;
-  color: #ffffff;
-}
-
-[data-theme='dark'] .navbar-cta:hover {
-  background: #ffffff;
-  color: #0b1120;
 }
 
 /* --- Mobile nav — matched to the marketing drawer -------------------------
@@ -350,7 +316,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
 
-  /* No rule under the last visible row. The hidden CTA rows still follow
+  /* No rule under the last visible row. The hidden CTA row still follows
      Contact in the DOM, so :last-child can't find it. */
   .navbar-sidebar__item:first-child
     > .menu__list
@@ -380,10 +346,9 @@
     color: var(--ifm-navbar-link-hover-color);
   }
 
-  /* Marketing hides both CTAs below 640px; keep the drawer to the five links.
+  /* Marketing hides the CTA below 640px; keep the drawer to the five links.
      Hide the row, not just the link, so it contributes no divider. */
-  .navbar-sidebar .menu__list-item:has(> .navbar-download-app),
-  .navbar-sidebar .menu__list-item:has(> .navbar-cta) {
+  .navbar-sidebar .menu__list-item:has(> .navbar-download-app) {
     display: none;
   }
 
