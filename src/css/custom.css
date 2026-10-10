@@ -189,23 +189,101 @@
     position: relative;
   }
 
+  .navbar__items--right {
+    display: none;
+  }
+
+  /* backdrop-filter makes .navbar the containing block for its fixed
+     descendants, and the drawer + backdrop live inside it — so with the blur
+     on, both get clipped to the 60px bar and the menu never appears.
+     Marketing drops the blur on mobile for the same reason.
+
+     Marketing's overlay also sits under the whole bar, so the bar (and the X)
+     stay lit beside the open drawer. Here the backdrop is a child of the bar,
+     so paint the bar's chrome on a pseudo-element and slot the backdrop below
+     it: backdrop (-2) < bar chrome (-1) < logo/toggle < drawer.
+
+     Marketing's hairline hangs below a full-height row (60 + 1px); Infima
+     counts it inside the height. Add the pixel back below the content. */
+  .navbar {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: none;
+    border-bottom: none;
+    height: calc(var(--ifm-navbar-height) + 1px);
+    padding-bottom: calc(var(--ifm-navbar-padding-vertical) + 1px);
+  }
+
+  .navbar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: var(--ifm-navbar-background-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  [data-theme='dark'] .navbar::before {
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .navbar-sidebar__backdrop {
+    z-index: -2;
+    background: rgba(0, 0, 0, 0.4);
+    /* Marketing toggles the overlay with display — no fade. */
+    transition: none;
+  }
+
+  /* Marketing's .nav-toggle: three 20px bars in a 36x32 button that morph
+     into an X while open. It's the drawer's only close control. */
   .navbar__toggle {
     position: absolute;
     right: var(--ifm-navbar-padding-horizontal);
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
-    color: #1a1a2e;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 
-  .navbar__items--right {
-    display: none;
+  .navbar__toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #1a1a2e;
+    border-radius: 2px;
+    transition:
+      transform 0.3s,
+      opacity 0.2s;
   }
 
+  [data-theme='dark'] .navbar__toggle span {
+    background: #ffffff;
+  }
+
+  .navbar-sidebar--show .navbar__toggle span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .navbar-sidebar--show .navbar__toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-sidebar--show .navbar__toggle span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  /* Infima fades the panel in; marketing only slides it, on a longer ease. */
   .navbar-sidebar {
+    opacity: 1;
     background: #ffffff;
     border-right: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 4px 0 32px rgba(0, 0, 0, 0.12);
+    transition:
+      transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+      visibility 0.35s;
   }
 
   [data-theme='dark'] .navbar-sidebar {
@@ -213,20 +291,15 @@
     border-right-color: rgba(255, 255, 255, 0.08);
   }
 
-  .navbar-sidebar__backdrop {
-    background: rgba(0, 0, 0, 0.4);
-  }
-
-  /* Marketing's drawer has no logo of its own — the nav bar stays visible
-     beside it. Keep only the close control. */
+  /* Marketing's drawer has no header of its own — no logo, no close button —
+     just a bar-height gap above the links (its padding-top is
+     nav-height + 2rem). Keep the row as that spacer. */
   .navbar-sidebar__brand {
     height: var(--ifm-navbar-height);
-    padding: 0 2rem;
-    justify-content: flex-end;
     box-shadow: none;
   }
 
-  .navbar-sidebar__brand .navbar__brand {
+  .navbar-sidebar__brand > * {
     display: none;
   }
 
@@ -238,33 +311,59 @@
     padding: 0 2rem;
   }
 
+  /* Infima sizes the doc panel's back row for its 0.5rem gutter; stretch it
+     edge to edge across ours, label in line with the doc links below. */
+  .navbar-sidebar__back {
+    top: 0;
+    width: calc(100% + 4rem);
+    margin: 0 -2rem 0.5rem;
+    padding: 0.6rem calc(2rem + var(--ifm-menu-link-padding-horizontal));
+  }
+
   /* Scoped to the first panel — the second one is the doc tree, whose rows
-     carry expand carets and should keep Docusaurus's left-aligned layout. */
+     carry expand carets and should keep Docusaurus's left-aligned layout.
+     Marketing's list keeps its desktop `align-items: center`, so each row
+     shrinks to its label and the hairline under it is only as wide as the
+     word — not a full-width rule. */
+  .navbar-sidebar__item:first-child > .menu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item {
+    margin-top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  /* No rule under the last visible row. The hidden CTA rows still follow
+     Contact in the DOM, so :last-child can't find it. */
+  .navbar-sidebar__item:first-child
+    > .menu__list
+    > .menu__list-item:has(+ .menu__list-item > .navbar-download-app) {
+    border-bottom: none;
+  }
+
+  [data-theme='dark'] .navbar-sidebar__item:first-child > .menu__list > .menu__list-item {
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
   .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link {
-    justify-content: center;
+    display: block;
     padding: 1rem 0;
     font-size: 1.05rem;
     font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
     color: var(--ifm-font-color-base);
+    background: none;
     border-radius: 0;
+    transition: color 0.25s;
   }
 
-  /* Divider between rows rather than under each — the hidden CTA rows below
-     still count for :last-child, so a trailing rule would hang under Contact. */
-  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item {
-    margin-top: 0;
-  }
-
-  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item + .menu__list-item {
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-  }
-
-  [data-theme='dark']
-    .navbar-sidebar__item:first-child
-    > .menu__list
-    > .menu__list-item
-    + .menu__list-item {
-    border-top-color: rgba(255, 255, 255, 0.08);
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link:hover,
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link--active {
+    color: var(--ifm-navbar-link-hover-color);
   }
 
   /* Marketing hides both CTAs below 640px; keep the drawer to the five links.
