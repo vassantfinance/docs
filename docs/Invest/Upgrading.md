@@ -2,7 +2,7 @@
 
 - **Connecting Institutions**: When upgrading to paid, users gain the ability to connect one or more financial institutions to sync investments from multiple accounts to their portfolio. Users are not forced to sync an account when upgrading. To first connect an account, users may go to the sidebar located at the top left of the screen, press “Account Information,” scroll down, then press “Connect your brokerage account.” Users must follow the prompts from Plaid to connect their institutions to Vassant. Users may connect more than one financial institution, up to 5 maximum. Additional requests to connect more should be sent to support@vassantfinance.com.
 - **Syncing Accounts**: After connecting institutions to Vassant, users must then connect individual accounts to different areas of the Vassant platform. To then sync an account, users may go to the “Invest” tab → select desired investment account subtype → “Connect account” button in green next to the "Portfolio" headline.
-  - After tapping "Connect account," the user may select an account then press “Continue” to associate your account with the Plaid-linked brokerage (if multiple accounts of the same subtype are selected to match an account overview, they can be combined into a singular account overview). If nothing is selected, the “Connect account” remains at the top of the invest account screen, and it may be matched with another account from any financial institution at any time, or remain in “Manual Mode” indefinitely.
+  - After tapping "Connect account," the user may select an account then press “Continue” to associate your account with the Plaid-linked brokerage. If nothing is selected, the “Connect account” remains at the top of the invest account screen, and it may be matched with another account from any financial institution at any time, or remain in “Manual Mode” indefinitely.
   - After connecting accounts, additional accounts from other financial institutions can be synced at any time by selecting “Connect account” at the top of the account tab.
   - After syncing, investment information collected and used by Vassant includes positions, position sizes, new purchases, and total account values.
   - Note: Connecting an account via the “Invest” tab automatically syncs accounts that match those within the “Allocations” subtab in “Model.” You may unsync either individually at either time.
@@ -14,6 +14,8 @@
   - Each account tab can be linked to one connected institution at a time. Adding multiple of the same account type is planned for a future release.
   - **Note:** International (ex-U.S.) holdings are not currently supported by Vassant. When an account that has international holdings is matched with an existing investment account, there will be no new investment cards created for those international holdings. If there already exists a manual position of an international holding, the data will not be updated via sync.
  
+- **Sync Frequency**: Investments made on synced accounts can take up to a day to reflect on the app.
+
 - **Position Models in Synced Mode**: When the percent allocation of a given position reaches the target threshold, the plan is marked as complete, regardless if the actual percent allocation drops below this value with new syncs. “Watchlist” positions and their respective models are not impacted in “Sync” mode.
 
 - **Live Market Data**: Users gain access to public market data for automatic price checks given a position’s next purchase price, as well as automatic price calculations for determining the “Next Purchase Price.”
