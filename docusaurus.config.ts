@@ -88,6 +88,10 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/vassantfinance/docs/tree/main/',
+          // Stamps each doc with the date of the last commit that touched its
+          // file, so readers can see when the rules last changed. Needs full
+          // git history at build time — hence `fetch-depth: 0` in deploy.yml.
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
