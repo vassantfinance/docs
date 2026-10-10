@@ -70,7 +70,10 @@
    set, same type scale, same glass chrome, same pill CTA.
    ============================================================ */
 
+/* Marketing's hairline hangs below a full-height row (72 + 1px); Infima
+   counts it inside the height, which pulls everything up half a pixel. */
 .navbar {
+  height: calc(var(--ifm-navbar-height) + 1px);
   backdrop-filter: blur(24px) saturate(1.2);
   -webkit-backdrop-filter: blur(24px) saturate(1.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -87,11 +90,11 @@
   padding: 0 var(--ifm-navbar-padding-horizontal);
 }
 
-/* Marketing puts a flat 2rem between brand and links; Infima also pads the
-   first item, so trim half of it back out to land the first link on the same
-   x as the marketing nav (measured: 204px at a 1280px viewport). */
+/* Marketing puts a flat 2rem between the logo and the first link's box
+   (measured: 204px at a 1280px viewport). Infima adds its own margin after
+   the logo image, so zero that and own the whole gap here. */
 .navbar__brand {
-  margin-right: calc(2rem - var(--ifm-navbar-item-padding-horizontal) / 2);
+  margin-right: 2rem;
 }
 
 .navbar__logo,
@@ -99,6 +102,10 @@
   height: 24px;
   width: auto;
   display: block;
+}
+
+.navbar__logo {
+  margin-right: 0;
 }
 
 .navbar__link {
@@ -117,9 +124,15 @@
   display: none;
 }
 
+/* The CTAs inherit the nav-link treatment (padding, letter-spacing) from
+   Infima and the rule above, but marketing's are bare text at body
+   line-height spaced by a 2rem gap — undo the link styling to match. */
 .navbar-download-app {
+  padding: 0;
   font-size: 0.875rem;
   font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: normal;
   color: #e5247f;
   white-space: nowrap;
   transition: opacity 0.2s;
@@ -138,13 +151,15 @@
 .navbar-cta {
   display: inline-flex;
   align-items: center;
-  margin-left: 0.75rem;
+  margin-left: 2rem;
   padding: 0.45rem 1.25rem;
   border-radius: 9999px;
   border: 1.5px solid #1a1a2e;
   color: #1a1a2e;
   font-size: 0.875rem;
   font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: normal;
   white-space: nowrap;
   transition:
     background-color 0.2s,
@@ -203,14 +218,13 @@
      so paint the bar's chrome on a pseudo-element and slot the backdrop below
      it: backdrop (-2) < bar chrome (-1) < logo/toggle < drawer.
 
-     Marketing's hairline hangs below a full-height row (60 + 1px); Infima
-     counts it inside the height. Add the pixel back below the content. */
+     With the hairline moved onto the pseudo-element, the bar's own box no
+     longer reserves that 1px, so pad it back in below the content. */
   .navbar {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     background: none;
     border-bottom: none;
-    height: calc(var(--ifm-navbar-height) + 1px);
     padding-bottom: calc(var(--ifm-navbar-padding-vertical) + 1px);
   }
 
