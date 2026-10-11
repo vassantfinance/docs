@@ -10,7 +10,7 @@ sidebar_custom_props:
 
 **Syncing Accounts:** To then sync an account, users may go to the “Model” tab → select desired investment account card → “Connect account”. A prompt to match accounts will follow. Users may only match 1 synced account with 1 allocations account. All accounts in the “Yearly Investing Allocations” section not matched to an account while in the Premium subscription remain in “Manual” mode and are not affected.
 
-- **Note**: If an investment account is synced in the "Invest" section, the corresponding account will also be synced in the "Model" section. You may individually unsync either. Unsyncing one will not unsync the other.
+- **Note**: If an investment account is synced in the "Invest" section, the corresponding account will also be synced in the "Model" section. Regarding unsyncing, each fund has one connection that drives both Invest and Model, so unsyncing it affects both.
 
 - **Data Migration During Sync:** When connected, no data from previously manual contributions will be lost. Starting from the time of connection and sync, that account will update with net cash inflows. Contributions made before syncing the account to Vassant will not update.
   - You may add “Manual” cash inflow contributions to already established “Synced” accounts. The synced amount is always the source of truth for the connected account. A manual entry never overwrites it. A manual cash deposit amount on a synced account counts as "held elsewhere" and is added on top. It stays put through syncs. You edit that one manual amount to change it. New entries don't keep stacking up.
