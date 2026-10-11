@@ -11,7 +11,7 @@ sidebar_custom_props:
   - After tapping "Connect account," the user may select an account then press “Continue” to associate your account with the Plaid-linked brokerage. If nothing is selected, the “Connect account” remains at the top of the invest account screen, and it may be matched with another account from any financial institution at any time, or remain in “Manual Mode” indefinitely.
   - After connecting accounts, additional accounts from other financial institutions can be synced at any time by selecting “Connect account” at the top of the account tab.
   - After syncing, investment information collected and used by Vassant includes positions, position sizes, new purchases, and total account values.
-  - Note: Connecting an account via the “Invest” tab automatically syncs accounts that match those within the “Allocations” subtab in “Model.” You may unsync either individually at either time.
+  - Note: Connecting an account via the “Invest” tab automatically syncs the matched account type within the “Allocations” subtab in “Model.” Regarding unsyncing, each fund has one connection that drives both Invest and Model, so unsyncing it affects both.
 
 - **Investment Data Conversion During Sync**: When applicable, all positions in the “Portfolio” section created from manual recordings that match found positions via synced connection in labeled accounts are automatically updated (overriding the existing manual contributions) to reflect current portfolio percentages.
   - All positions currently found are automatically updated (and transitioned from the “Watchlist” section, if applicable) in the “Portfolio” section.
