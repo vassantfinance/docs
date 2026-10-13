@@ -124,39 +124,65 @@
   display: none;
 }
 
-/* The CTA inherits the nav-link treatment (padding, letter-spacing) from
-   Infima and the rule above, but marketing's is bare text at body
-   line-height — undo the link styling to match. */
-.navbar-download-app {
-  padding: 0;
+/* The CTAs inherit the nav-link treatment (padding, letter-spacing) from
+   Infima and the rule above, but marketing's are bare text and a pill at
+   body line-height, 2rem apart — undo the link styling to match. */
+.navbar-login,
+.navbar-signup {
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.7;
   letter-spacing: normal;
-  color: #e5247f;
   white-space: nowrap;
+}
+
+.navbar-login {
+  padding: 0;
+  margin-right: 2rem;
+  color: #e5247f;
   transition: opacity 0.2s;
 }
 
-.navbar-download-app:hover {
+.navbar-login:hover {
   color: #e5247f;
   opacity: 0.75;
 }
 
-[data-theme='dark'] .navbar-download-app,
-[data-theme='dark'] .navbar-download-app:hover {
+[data-theme='dark'] .navbar-login,
+[data-theme='dark'] .navbar-login:hover {
   color: #ff2d9b;
 }
 
+/* Marketing's `.btn-primary.nav-signup` */
+.navbar-signup {
+  padding: 0.5rem 1.25rem;
+  color: #fff;
+  background: var(--vassant-gradient);
+  border-radius: 9999px;
+  box-shadow: 0 4px 20px rgba(229, 36, 127, 0.1);
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s;
+}
+
+.navbar-signup:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 30px rgba(229, 36, 127, 0.1),
+    0 2px 12px rgba(0, 146, 189, 0.08);
+}
+
 /* --- Mobile nav — matched to the marketing drawer -------------------------
-   Marketing: 60px bar, logo left, hamburger right, no CTA; drawer is a
-   75vw/300px white panel with centred 1.05rem links divided by hairlines.
-   Docusaurus ships an 83vw translucent panel with a duplicate logo, a left
-   hamburger and left-aligned links, so realign the whole thing.
+   Marketing: 60px bar, logo left, hamburger right, no CTAs in the bar; drawer
+   is a 75vw/300px white panel with centred 1.05rem links divided by
+   hairlines, then Log in / Sign up pills. Docusaurus ships an 83vw
+   translucent panel with a duplicate logo, a left hamburger and left-aligned
+   links, so realign the whole thing.
 
    Note the breakpoints differ by necessity: Docusaurus collapses at 996px
    because the docs sidebar folds into this drawer, while marketing collapses
-   at 640px. Forcing them to agree would strand doc navigation between the
+   at 900px. Forcing them to agree would strand doc navigation between the
    two widths. */
 
 /* Infima's default is 83vw. */
@@ -316,14 +342,6 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
 
-  /* No rule under the last visible row. The hidden CTA row still follows
-     Contact in the DOM, so :last-child can't find it. */
-  .navbar-sidebar__item:first-child
-    > .menu__list
-    > .menu__list-item:has(+ .menu__list-item > .navbar-download-app) {
-    border-bottom: none;
-  }
-
   [data-theme='dark'] .navbar-sidebar__item:first-child > .menu__list > .menu__list-item {
     border-bottom-color: rgba(255, 255, 255, 0.08);
   }
@@ -346,10 +364,36 @@
     color: var(--ifm-navbar-link-hover-color);
   }
 
-  /* Marketing hides the CTA below 640px; keep the drawer to the five links.
-     Hide the row, not just the link, so it contributes no divider. */
-  .navbar-sidebar .menu__list-item:has(> .navbar-download-app) {
-    display: none;
+  /* Marketing's `.nav-links-cta`: Log in / Sign up close the drawer as two
+     full-width pills, with no divider rows of their own. */
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item:has(> .navbar-login),
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item:has(> .navbar-signup) {
+    align-self: stretch;
+    margin-top: 0.75rem;
+    border-bottom: none;
+  }
+
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item:has(> .navbar-login) {
+    margin-top: 1.5rem;
+  }
+
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link.navbar-login,
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link.navbar-signup {
+    margin: 0;
+    padding: 0.85rem 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background: #e5247f;
+    border-radius: 9999px;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link.navbar-login {
+    color: #e5247f;
+    background: transparent;
+    border: 1px solid #e5247f;
   }
 
   .navbar-sidebar .menu__link svg[class*='iconExternalLink'] {
