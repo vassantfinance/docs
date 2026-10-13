@@ -118,7 +118,11 @@ The same chemicals are used to kill the same bugs every year.
 
 To the customer, in theory, few factors should then impact the decision-making process for choosing a vendor, with the primary being price. If this were true, brand advantage may erode due to this behavioral shift.
 
-But I’d like to offer a different perspective. 
+And there could be certain risks over time that Rollins faces regarding cost of customer acquisition via digital channels and organic customer growth. 
+
+For a business that is driven by operating leverage, this could be a legitimate concern over the short-term and should be considered thoughtfully before making an investment decision. 
+
+**But I’d like to offer a different perspective.**
 
 The argument I’ll present is that Rollins has very carefully cultivated a unique culture built around customer service, shared missions, and personal development. And this culture serves as a standalone competitive advantage that directly supports the business’s long-term durability through more robust customer relationships and subtle pricing power.
 
