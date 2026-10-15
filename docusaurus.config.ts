@@ -98,8 +98,26 @@ const config: Config = {
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All posts',
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ['rss', 'atom', 'json'],
+            limit: false,
             xslt: true,
+            // The app's Articles tab reads feed.json. Carry the site's own
+            // "N min read" through as a JSON Feed extension so the two agree;
+            // RSS and Atom don't serialize extensions.
+            createFeedItems: async ({ blogPosts, defaultCreateFeedItems, ...rest }) => {
+              const items = await defaultCreateFeedItems({ blogPosts, ...rest });
+              return items.map((item, i) => ({
+                ...item,
+                extensions: [
+                  {
+                    name: '_vassant',
+                    objects: {
+                      read_minutes: Math.ceil(blogPosts[i].metadata.readingTime ?? 0),
+                    },
+                  },
+                ],
+              }));
+            },
           },
           editUrl: 'https://github.com/vassantfinance/docs/tree/main/',
           onInlineTags: 'warn',
