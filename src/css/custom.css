@@ -157,7 +157,7 @@
 .navbar-signup {
   padding: 0.5rem 1.25rem;
   color: #fff;
-  background: var(--vassant-gradient);
+  background: #e5247f;
   border-radius: 9999px;
   box-shadow: 0 4px 20px rgba(229, 36, 127, 0.1);
   transition:
@@ -168,9 +168,11 @@
 .navbar-signup:hover {
   color: #fff;
   transform: translateY(-2px);
-  box-shadow:
-    0 8px 30px rgba(229, 36, 127, 0.1),
-    0 2px 12px rgba(0, 146, 189, 0.08);
+  box-shadow: 0 8px 30px rgba(229, 36, 127, 0.1);
+}
+
+[data-theme='dark'] .navbar-signup {
+  background: #ff2d9b;
 }
 
 /* --- Mobile nav — matched to the marketing drawer -------------------------
