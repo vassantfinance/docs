@@ -131,6 +131,25 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Pages renamed with the app's Discover tabs; keep old links working.
+        redirects: [
+          {
+            from: '/docs/Discover/SpotlightProfiles',
+            to: '/docs/Discover/DeepDives',
+          },
+          {
+            from: '/docs/Discover/Knowledge Base',
+            to: '/docs/Discover/Library',
+          },
+        ],
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/og.png',
     metadata: [

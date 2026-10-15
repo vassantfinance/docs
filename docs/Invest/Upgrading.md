@@ -26,4 +26,4 @@ sidebar_custom_props:
 
 - **Live Market Data**: Users gain access to public market data for automatic price checks given a position’s next purchase price, as well as automatic price calculations for determining the “Next Purchase Price.”
 
-- **The “Vault”:** Users now get access to an editable Vassant “Vault” for every desired investment position, where it was limited to 6 under the Free Plan. In addition, users gain access to “Use Spotlight Profile” as an option to initiate a “Vault” for a unique investable security, if that profile is now released and accessible to the paid user.
+- **The “Vault”:** Users now get access to an editable Vassant “Vault” for every desired investment position, where it was limited to 6 under the Free Plan. In addition, users gain access to “Use a Deep Dive” as an option to initiate a “Vault” for a unique investable security, if that profile is now released and accessible to the paid user.

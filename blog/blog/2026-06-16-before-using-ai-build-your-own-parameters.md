@@ -35,7 +35,7 @@ Marcus Aurelius once said "You have power over your mind — not outside events.
 
 # Choose a Company
 
-Choosing a company can be as simple as selecting a company already in your portfolio, or using our spotlight profiles as a starting place. This is usually everyone's favorite step, but what you do next is more important.
+Choosing a company can be as simple as selecting a company already in your portfolio, or using our Deep Dives as a starting place. This is usually everyone's favorite step, but what you do next is more important.
 
 # Setting a Checklist
 

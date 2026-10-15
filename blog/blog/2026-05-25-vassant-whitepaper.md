@@ -59,7 +59,7 @@ Vassant executes these goals through **three core pillars**:
 
 - **Investment Organization & Multi-Account Management:** Users can manage more than one account in a structured manner, set capital allocation targets, document position research, and define "next purchase" prices to maintain a disciplined thesis.
 - **Capital Allocation Framework:** A system to map monthly investable cash flow and optimize allocations across tax-conscious accounts (Brokerages, IRAs, HSAs, 401(k)s).
-- **Knowledge Base & Case Studies:** A core library of niche investment concepts driving the most successful stocks of the past several decades. Users may also discover currently over 15 real world case studies applying these concepts.
+- **Library & Case Studies:** A core library of niche investment concepts driving the most successful stocks of the past several decades. Users may also discover currently over 15 real world case studies applying these concepts.
 
 ## The Customers Who Benefit Most
 

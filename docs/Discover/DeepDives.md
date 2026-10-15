@@ -1,0 +1,15 @@
+---
+description: Real-company case studies and how to unlock them.
+sidebar_custom_props:
+  icon: sparkles
+---
+
+# Deep Dives
+
+**General Information:** The “Deep Dives” tab is where case studies appear of real-world stocks and ETFs. These case studies incorporate features from the “Library” content to offer users tangible insights related to how certain fundamental characteristics affect long-term share price performance. “Deep Dives” are meant to be comprehensive, objective, and unbiased presentations of company fundamentals and information. Vassant serves a curator of public investment data rather than a financial advisor; “Deep Dives” in no way serve as recommendations to buy or sell a security and are purely for information and educational purposes only.
+
+**Format:** “Deep Dives” have a standardized format, outlining overall characteristics, alignment with certain principles outlined in the “Discover” modules, competition, nuances, and risks.
+
+**Accessibility:** 2 “Deep Dives” are available for free to all users. 3 additional profiles are available in a learn-to-unlock system using Mastery Points. When a user obtains their first 12 Mastery Points, the first “Deep Dive” unlocks. After the first 24 and 36 Mastery Points, 1 more additional profile is unlocked at each milestone. The remainder of the profiles are permanently locked until a subscription upgrade.
+
+**Moving Profile Directly to Invest:** To directly add a “Deep Dive” to an established investment account in the “Invest” tab, the user must scroll to the last page of the profile and press the "+ Add to account" button. Users may add the “Deep Dive” to more than one account subtype tab.
