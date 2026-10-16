@@ -139,25 +139,21 @@
 .navbar-login {
   padding: 0;
   margin-right: 2rem;
-  color: #e5247f;
+  color: #ff2ac3;
   transition: opacity 0.2s;
 }
 
 .navbar-login:hover {
-  color: #e5247f;
+  color: #ff2ac3;
   opacity: 0.75;
-}
-
-[data-theme='dark'] .navbar-login,
-[data-theme='dark'] .navbar-login:hover {
-  color: #ff2d9b;
 }
 
 /* Marketing's `.btn-primary.nav-signup` */
 .navbar-signup {
   padding: 0.5rem 1.25rem;
   color: #fff;
-  background: #e5247f;
+  /* Marketing's `--vassant-pink`: the logo's pink */
+  background: #ff2ac3;
   border-radius: 9999px;
   box-shadow: 0 4px 20px rgba(229, 36, 127, 0.1);
   transition:
@@ -169,10 +165,6 @@
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(229, 36, 127, 0.1);
-}
-
-[data-theme='dark'] .navbar-signup {
-  background: #ff2d9b;
 }
 
 /* --- Mobile nav — matched to the marketing drawer -------------------------
@@ -386,16 +378,16 @@
     font-weight: 700;
     text-align: center;
     color: #fff;
-    background: #e5247f;
+    background: #ff2ac3;
     border-radius: 9999px;
     box-shadow: none;
     transform: none;
   }
 
   .navbar-sidebar__item:first-child > .menu__list > .menu__list-item > .menu__link.navbar-login {
-    color: #e5247f;
+    color: #ff2ac3;
     background: transparent;
-    border: 1px solid #e5247f;
+    border: 1px solid #ff2ac3;
   }
 
   .navbar-sidebar .menu__link svg[class*='iconExternalLink'] {
