@@ -39,7 +39,4 @@ We don't just want to be another app, **we want to help shift mindsets towards s
 
 To our early supporters, thank you.
 
-Until next time, 
-Miles
-
-We're just getting started…
+We're just getting started.
