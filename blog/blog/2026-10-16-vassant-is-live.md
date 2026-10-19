@@ -19,7 +19,7 @@ On our platform, we provide you with simple yet vital tools to take control of y
 
 We started Vassant based on the assumptions that novice investors were looking for direction to get started on their investing journeys and that experienced investors wanted a centralized platform to templatize and organize their personalized investment strategy. Then we did some research and came across a 2025 study that found the median retail investor spends just [**6 minutes**](https://www.investopedia.com/investors-tend-to-be-impulse-buyers-11745450) conducting internet-based research before making a stock trade.
 
-Holding periods have collapsed in sync: U.S. shares were held for an average of [8 years](https://www.weforum.org/stories/2021/12/long-term-investing-decline/) in the late 1950s, but by June 2020, it was [under 6 months](https://www.reuters.com/article/markets/stocks/buy-sell-repeat-no-room-for-hold-in-whipsawing-markets-idUSKBN24Z101/).
+Holding periods have collapsed in sync: U.S. shares were held for an average of [8 years](https://politifact.com/factchecks/2016/jul/06/mark-warner/mark-warner-says-average-holding-time-stocks-has-f/) in the 1960, but by June 2020, it was [under 6 months](https://www.reuters.com/article/markets/stocks/buy-sell-repeat-no-room-for-hold-in-whipsawing-markets-idUSKBN24Z101/).
 
 This performance gap highlights a systemic flaw in current investment workflows: **speed is being prioritized over conviction, confidence, and strategy.**
 
