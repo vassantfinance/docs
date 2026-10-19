@@ -13,7 +13,7 @@ Like any startup, there were pivots along the way. Pivots do not equal uncertain
 
 {/* truncate */}
 
-After all the deliberation, we came to a conclusion about what we stood for: Vassant is a platform to streamline wealth creation, built on high-conviction decision-making principles. 
+After all the deliberation, we came to a conclusion about what we stood for: **Vassant is a platform to streamline wealth creation, built on high-conviction decision-making principles.**
 
 On our platform, we provide you with simple yet vital tools to take control of your own capital allocation.
 
@@ -35,7 +35,7 @@ We know distribution is the hardest part of all of this.
 
 But we're not stopping because the world of finance and investing is changing so rapidly, less wealth is being created for younger generations, and negative noise is causing too much rethink and hesitation when allocating capital.
 
-We don't just want to be another app, we want to help shift mindsets towards smarter, independent personal finance practices.
+We don't just want to be another app, **we want to help shift mindsets towards smarter, independent personal finance practices.**
 
 To our early supporters, thank you.
 
