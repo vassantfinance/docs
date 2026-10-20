@@ -37,9 +37,9 @@ The Next Purchase Price is a field where you can set your desired entry price fo
 </details>
 
 <details id="record-feature-free">
-  <summary>5. How does the "Record" feature work in the free version of Vassant?</summary>
+  <summary>5. How does the "Update position" feature work in the free version of Vassant?</summary>
 
-In Manual Mode, you track your investment progress by clicking the Record button within a unique investment card. Each time you make a purchase, you must enter your new total position value and your total portfolio value. The app then calculates a new % of Portfolio value to update your current investment plan and track your progress toward your target Position Model.
+In Manual Mode, you track your investment progress by clicking the Update position button within a unique investment card. Each time your holding changes, you must enter your new total position value and your total portfolio value. The app then calculates a new % of Portfolio value to update your current investment plan and track your progress toward your target Position Model.
 
 </details>
 
@@ -62,7 +62,7 @@ All Vaults you created while on the paid plan remain fully accessible and visibl
 </details>
 
 <details id="record-and-plaid">
-  <summary>8. Can I use the manual "Record" feature and Plaid automatic updates at the same time?</summary>
+  <summary>8. Can I use the manual "Update position" feature and Plaid automatic updates at the same time?</summary>
 
 Yes, you can combine both modes. Even after syncing an account via Plaid, you can still add manual cash inflow contributions to those synced positions. This is particularly helpful if you own the exact same asset in another un-synced account or an institution not supported by Vassant.
 
