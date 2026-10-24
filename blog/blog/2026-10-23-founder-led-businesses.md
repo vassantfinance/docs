@@ -59,7 +59,7 @@ The result?
 
 You going to execute every dish to perfection.
 
-![Founder-Owned Restaurant Chef Illustration](<Assets and Pictures/102326/founderchef.webp>)
+![Founder-Owned Restaurant Chef Illustration](<./Assets and Pictures/102326/cook.jpg>)
 
 Not only this, but you also care more about the well-being of the
 business, whether it be margins, growth, long-term stability, or ratings
@@ -237,7 +237,7 @@ These new segments are a pure output of the reinvestment model.
 Just take a look at the **R&D to revenue ratios** of many of the major
 technology firms:
 
-![Meta R&D to Revenue Comparison](<Assets and Pictures/102326/metardtorevenue.webp>)
+![Meta R&D to Revenue Comparison](<Assets and Pictures/102326/RnDtorevenue.webp>)
 
 Source: Fiscal.AI
 
@@ -250,7 +250,7 @@ But how has this translated to shareholder value?
 
 A stock price CAGR of **19%** over the past decade:
 
-![Meta Historical Stock Price](<Assets and Pictures/102326/metastockprice.webp>)
+![Meta Historical Stock Price](<Assets and Pictures/102326/metaprice.webp>)
 
 Source: Fiscal.AI
 
@@ -339,7 +339,7 @@ Recently, Nubank disclosed that they service over **60% of the Brazilian
 population**. That's over **115 million customers**, just in Brazil.
 This is all in only 13 years.
 
-![Nubank Customer Growth](<Assets and Pictures/102326/nubankcustomers.webp>)
+![Nubank Customer Growth](<Assets and Pictures/102326/nucustomers.webp>)
 
 Source: Nu Investor Presentation
 
