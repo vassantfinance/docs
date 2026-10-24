@@ -191,7 +191,7 @@ reinvestment rate.
 
 Let's take an example in today's market.
 
-**Spotlight: Meta Platforms**
+### Spotlight: Meta Platforms
 
 Under Mark Zuckerberg's leadership, Meta serves as the epitome of
 founder-driven reinvestment.
