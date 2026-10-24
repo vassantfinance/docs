@@ -349,7 +349,7 @@ This brings us to the following growth rates:
 
 ![Rollins Discounted Cash Flow Valuation Table](<Assets and Pictures/093026/dcf.webp>)
 
-From this value, I subtract outstanding debt (~$700M) and add back free cash (~$109M). I arrive at a fair value of **$27.35**, or around ~10% below today’s price of around $30.
+From this value, I subtract outstanding debt (around $700M) and add back free cash (around $109M). I arrive at a fair value of **$27.35**, or around ~10% below today’s price of around $30.
 
 If we instead use growth rates of 9% for years 1-5, 7% for years 6-10, and then 5% for years 11-20, then we achieve a conservative valuation of **$25.81**, or around ~15% below today’s price of around $30. 
 
@@ -361,7 +361,7 @@ Now let’s create a valuation from a return perspective going forward. ROL has 
 
 *Source: Fiscal.AI*
 
-Let’s assume the business rerates to 30 P/FCF to reflect the changes described in this piece, the same free cash flow growth as year 1-5 above, plus a ~2% dividend yield and no buybacks (even though they are doing some now). If we assume the business trades at 25 P/FCF (roughly at current level) in 5 years, we earn a **12.2% CAGR** on Rollins from today’s price (~$30).
+Let’s assume the business rerates to 30 P/FCF to reflect the changes described in this piece, the same free cash flow growth as year 1-5 above, plus a 2% dividend yield and no buybacks (even though they are doing some now). If we assume the business trades at 25 P/FCF (roughly at current level) in 5 years, we earn a **12.2% CAGR** on Rollins from today’s price (around $30).
 
 It’s up to you how you might want to reconfigure the specific metrics used in this valuation, but it seems Rollins has come down to a valuation close to a realistic fair value. 
 
