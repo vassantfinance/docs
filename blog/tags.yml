@@ -42,3 +42,8 @@ businesses:
   label: Businesses
   permalink: /businesses
   description: Discussing how individual businesses make up a long-term investing style.
+
+qualitativeinvesting:
+  label: Qualitative Investing
+  permalink: /qualitative-investing
+  description: Discusses how stock prices are impacted by qualitative factors over time.
