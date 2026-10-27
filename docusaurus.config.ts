@@ -5,7 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Vassant',
   tagline: 'Documentation and updates',
-  favicon: 'img/logo.png',
+  // Same favicon set as the web app, so search results show one icon.
+  favicon: 'favicon.ico',
 
   future: {
     v4: true,
@@ -34,6 +35,14 @@ const config: Config = {
         name: 'google-site-verification',
         content: '8dtJIX7IqcK3oVyVv1D3LsvYWKx-dWXrcOyT-GSBOTY',
       },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'icon', href: '/favicon-192.png', type: 'image/png', sizes: '192x192' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
     },
     // Space Grotesk — matches the marketing site (vassantfinance.com).
     {
