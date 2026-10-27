@@ -1,6 +1,25 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import { readOutputHTMLFile } from '@docusaurus/utils';
+import { load } from 'cheerio';
+
+// A post's `image:` front matter is the app's Articles thumbnail (and the
+// post's social card). Written relative to the post, e.g.
+// `image: ./Assets and Pictures/093026/dcf.webp`, it's bundled under a hashed
+// name, so read the resolved URL back out of the built page's og:image.
+// Posts without one get no thumbnail rather than the site-wide og.png.
+async function thumbnailFor(
+  post: { metadata: { permalink: string; frontMatter: { image?: string } } },
+  outDir: string,
+  trailingSlash: boolean | undefined,
+): Promise<string | undefined> {
+  const { image } = post.metadata.frontMatter;
+  if (!image) return undefined;
+  if (/^https?:\/\//.test(image)) return image;
+  const html = await readOutputHTMLFile(post.metadata.permalink, outDir, trailingSlash);
+  return load(html)('meta[property="og:image"]').attr('content');
+}
 
 const config: Config = {
   title: 'Vassant',
@@ -115,8 +134,12 @@ const config: Config = {
             // RSS and Atom don't serialize extensions.
             createFeedItems: async ({ blogPosts, defaultCreateFeedItems, ...rest }) => {
               const items = await defaultCreateFeedItems({ blogPosts, ...rest });
+              const images = await Promise.all(
+                blogPosts.map((post) => thumbnailFor(post, rest.outDir, rest.siteConfig.trailingSlash)),
+              );
               return items.map((item, i) => ({
                 ...item,
+                image: images[i],
                 extensions: [
                   {
                     name: '_vassant',
