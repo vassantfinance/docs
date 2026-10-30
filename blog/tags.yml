@@ -47,3 +47,8 @@ qualitativeinvesting:
   label: Qualitative Investing
   permalink: /qualitative-investing
   description: Discusses how stock prices are impacted by qualitative factors over time.
+
+wallstreet:
+  label: Wall Street
+  permalink: /wall-street
+  description: Exploring characteristics of the finance industry, and how they impact investors.
