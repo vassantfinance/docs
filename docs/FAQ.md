@@ -9,14 +9,14 @@ sidebar_position: 5
 <details id="separate-tracking-tabs">
   <summary>1. Can I create separate tracking tabs if I have two Brokerage accounts?</summary>
 
-No. Vassant groups all accounts of the same subtype under a single unified tab (e.g., one "Brokerage" tab or one "Roth IRA" tab), even if they span different financial institutions.
+No. Vassant has one tab per account type (e.g., one “Brokerage” tab or one “Roth IRA” tab). You can track positions from several accounts on that tab manually, but a tab can only sync with one connected account at a time.
 
 </details>
 
 <details id="next-purchase-price-missing">
   <summary>2. Why is my "Next Purchase Price" suddenly missing?</summary>
 
-Once a position's current allocation fully meets your Position Model target, the next purchase price is nullified. To set a new target price, you must choose "Plan Another Purchase" and increase your allocation goal.
+Once a position's current allocation fully meets your Position Model target, the next purchase price is no longer shown. To set a new target price, you must choose "Plan Another Purchase" and increase your allocation goal.
 
 </details>
 
@@ -46,14 +46,14 @@ In Manual Mode, you track your investment progress by clicking the Update positi
 <details id="vault-save-template">
   <summary>6. In the Vault, what happens to my written data when I save a custom template?</summary>
 
-Saving a custom template copies the structural layout (all pages, sections, checklist criteria, and titles) so you can standardize your research across other stocks. However, any descriptive text inside the body boxes is erased so you start with a clean slate. This allows users to standardize an investment philosophy and quickly apply it to various potential investments.
+Saving a custom template copies the structural layout (all pages, sections, checklist criteria, and titles) so you can standardize your research across other stocks. However, any descriptive text inside the body boxes is erased so you start with a clean slate. Text on a “Blank page” is kept. This allows users to standardize an investment philosophy and quickly apply it to various potential investments.
 
 </details>
 
 <details id="vault-limit-downgrade">
   <summary>7. What happens to my research Vaults if I hit the limit or downgrade from VassantPRO?</summary>
 
-Free users can create a maximum of 6 unique research Vaults. If you try to create a new one beyond this limit, a VassantPRO upgrade popup will appear. Note that once you hit the 6-Vault limit, deleting existing content does not immediately free up space to add a new one.
+Free users can create a maximum of 6 unique research Vaults. If you try to create a new one beyond this limit, a VassantPRO upgrade popup will appear. Deleting a Vault frees up a slot, so you can create a new one. Removing the position a Vault belongs to does the same.
 
 If you upgrade to PRO, create more than 6 Vaults, and later downgrade back to the Free Plan, you will not lose any data. Your workspace simply enters a "Read and Edit" state where creation limits are re-enforced.
 
@@ -71,7 +71,7 @@ Yes, you can combine both modes. Even after syncing an account via Plaid, you ca
 <details id="data-migrate-plaid">
   <summary>9. How does my investment data migrate when I connect my accounts via Plaid?</summary>
 
-When you sync an account, Vassant automatically pulls your positions, position sizes, purchase history, and total account values.
+When you sync an account, Vassant automatically pulls your positions, position sizes, cost basis, and total account values.
 
 - **Matched Positions:** Any existing manual recordings that match positions found via the Plaid connection are automatically updated and overridden to reflect your actual current portfolio percentages.
 - **Unmatched Positions:** Any positions not found via the synced connection remain entirely unaffected and stay in Manual Mode.
@@ -86,7 +86,7 @@ Currently, Vassant only supports U.S. holdings. When an account that has interna
 
 ### Budget
 
-<details id="investable-cash-flow">
+<details id="budget-before-framework">
   <summary>1. Why do I need to make a budget before my Financial Framework?</summary>
 
 Vassant has constructed an end-to-end workflow which creates an "Investable Cash Flow" value (generated from the *output* of "Budget") and uses this value as the *input* for your Financial Framework.
@@ -103,7 +103,7 @@ It is the remaining monthly dollar value from your take-home pay after all your 
 <details id="expense-category-missing">
   <summary>3. Where did my expense category go? It is missing from the main breakdown.</summary>
 
-If an expense category makes up less than 1% of your total income, Vassant automatically clusters it into the Other category. ON the dashboard, tap the ellipsis (...) next to "Other" category to view the hidden details.
+If an expense category makes up less than 2% of your total income, Vassant automatically clusters it into the Other category. On the dashboard, tap the ellipsis (...) next to the “Other” category to view the hidden details.
 
 </details>
 
@@ -144,7 +144,7 @@ The chart estimates future progress by dividing your total planned yearly invest
 
 </details>
 
-<details id="plus-minus-signs">
+<details id="monthly-ytd-targets">
   <summary>6. On the Allocations chart, how are the monthly and YTD targets calculated?</summary>
 
 The monthly target for your aggregated framework is calculated by taking the total sum of yearly cash allocated across all accounts and dividing by 12. For the YTD target, the monthly target is multiplied by the number of months in the calendar year thus far, including the current month. For your account-specific allocations, the yearly indicated allocation to that account is divided by 12 for each monthly goal, then multiplied by the number of months in the calendar year thus far, including the current month, for the YTD goal. For example, if you indicated in your framework that you want to allocate $12,000 per year ($1,000/mo.) to your Brokerage, and for the current month of August you allocate $1,000, you will have reached 100% completion of the monthly goal for that account. 
@@ -189,7 +189,7 @@ Free users start with 2 unlocked Deep Dives. You can unlock 3 more by earning Ma
 2. Go to "Performance and Reports" and click on "Third-Party Reports"
 3. Click the Gear Icon next to "Third-Party Services" and find the "Plaid" option, and save your selection
 4. Note the 24 digit token and the Query ID, both of which will be used in the Vassant connection process
-5. Go to Vassant and open the Plaid connection tool by going to "Account information" in Vassant and pressing the "Connect institution" button at the bottom of the screen.
+5. Go to Vassant and open the sidebar, press “Account and Connections,” then press “Connect your brokerage account” (“Connect another institution” if you already have one connected).
 6. Search for the "Interactive Brokers - US" institution, and follow the prompts. Enter the 24 digit token and Query ID when asked.
 
 </details>
@@ -201,16 +201,19 @@ Free users start with 2 unlocked Deep Dives. You can unlock 3 more by earning Ma
 
 No. Vassant prioritizes data minimization and never handles your raw security credentials:
 
-- **Bank Logins:** Bank credentials are processed securely by Plaid. Vassant does not store your bank credentials beyond what is technically required to establish the initial connection.
-- **Credit Cards:** Credit card information is sent directly to Stripe. Vassant cannot access or store your full credit card number or CVV; the app only retains a secure "token" and limited billing metadata (like the last four digits and expiration date) to track your subscription.
+- **Bank Logins:** You sign in to your bank inside Plaid. Your username and password are never shared with or stored by Vassant.
+- **Credit Cards:** Web subscriptions are paid on a checkout page hosted by Stripe, and App Store subscriptions are paid through Apple. Vassant never receives your card number, CVV, expiration date, or the last four digits. We store a Stripe customer and subscription identifier plus your subscription status.
 </details>
 
 <details id="disconnect-delete-data">
   <summary>2. What happens to my financial data if I disconnect an account or delete my Vassant profile?</summary>
 
-Your data is securely and permanently scrubbed from the platform:
+**If you disconnect an account:** Vassant stops syncing and removes the account and its raw holdings data. The positions and contributions built from it stay in Vassant as manual entries, so you don't lose your history. You can delete those yourself, or delete your profile to remove everything.
 
-- **Production Databases:** Upon receiving a verified deletion request, your data is permanently deleted from the production database within 30 days.
+**If you delete your profile:** Your data is securely and permanently scrubbed from the platform:
+
+- **Production Databases:** Deleting your account in the app removes your data from the production database right away. A deletion request sent by email is completed within 30 days.
+- **Subscriptions:** Deleting your account cancels a web subscription at the end of the paid period. App Store subscriptions keep billing until you cancel them with Apple.
 - **Backup Snapshot Expire:** Any residual data remaining in encrypted backup snapshots automatically expires and clears out within 7 days.
 - **Plaid Offboarding:** When you disconnect a bank account or delete your profile, Vassant triggers Plaid's /item/remove endpoint, which immediately revokes the digital access token and instructs Plaid to delete your corresponding financial data on their end as well.
 </details>
