@@ -15,6 +15,7 @@ sidebar_custom_props:
   2. **Use Vassant’s Template:** Paid users may also use the “Deep Dive” template structure for research in the “Vault” for any investment position in the “Invest” tab (“Use Vassant’s Template”). The user gains access to the current structure of the “Vault” organization, along with applicable checklist and section titles. Unique information may be added accordingly.
   3. **Use Custom Template:** If the user has already created a custom “Vault” template, a user may choose “Use Custom Template” to initiate a new “Vault” for a unique investable security. The custom template feature generates a structure for research collection, but removes any descriptions added to the original source of the template.
   4. **Use a Deep Dive:** This feature allows users to use all of the content within a “Deep Dive” in the “Vault” and edit information according to their preferences (“Use a Deep Dive”). This is only possible if the investment card position matches a profile that is accessible to the user at that point in time.
+     - Free “Deep Dives” can always be used this way. A Mastery Point “Deep Dive” can be used once it’s unlocked, and the rest require VassantPRO. If you haven’t unlocked the “Deep Dive” for that position yet, “Use a Deep Dive” shows a lock, and tapping it opens the upgrade screen.
 
 - **Saving Content:** All changes in the Vault are _automatically saved._
 
