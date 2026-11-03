@@ -24,6 +24,8 @@ sidebar_custom_props:
  
 - **Sync Frequency**: Vassant checks for new data every time you open the Invest tab and whenever your brokerage reports changes. Brokerages usually send updates about once a day, so recent trades can take up to a day to appear.
 
+- **Long Absences**: Vassant pauses syncing if you haven't opened the app in 60 days, and picks back up when you return. After 90 days away we send a notification, and if you still haven't come back 7 days later, your connections are removed. Your positions and contributions stay as manual entries, and your subscription isn't affected. The Invest tab tells you when this happens so you can reconnect.
+
 - **Position Models in Synced Mode**: When the percent allocation of a given position reaches the target threshold, the plan is marked as complete, regardless if the actual percent allocation drops below this value with new syncs. “Watchlist” positions and their respective models are not impacted in “Sync” mode.
 
 - **Live Market Data**: Users gain access to public market data for automatic price checks given a position’s next purchase price, as well as automatic price calculations for determining the “Next Purchase Price.”
