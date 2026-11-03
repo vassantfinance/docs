@@ -10,6 +10,6 @@ sidebar_custom_props:
 
 **Format:** “Deep Dives” have a standardized format, outlining overall characteristics, alignment with certain principles outlined in the “Discover” modules, competition, nuances, and risks.
 
-**Accessibility:** 2 “Deep Dives” are available for free to all users. 3 additional profiles are available in a learn-to-unlock system using Mastery Points. When a user obtains their first 12 Mastery Points, the first “Deep Dive” unlocks. After the first 24 and 36 Mastery Points, 1 more additional profile is unlocked at each milestone. The remainder of the profiles are permanently locked until a subscription upgrade.
+**Accessibility:** 3 “Deep Dives” are available for free to all users. 3 additional profiles are available in a learn-to-unlock system using Mastery Points. When a user obtains their first 12 Mastery Points, the first “Deep Dive” unlocks. After the first 24 and 36 Mastery Points, 1 more additional profile is unlocked at each milestone. The remainder of the profiles are permanently locked until a subscription upgrade.
 
 **Moving Profile Directly to Invest:** To directly add a “Deep Dive” to an established investment account in the “Invest” tab, the user must scroll to the last page of the profile and press the "+ Add to account" button. Users may add the “Deep Dive” to more than one account subtype tab.
