@@ -34,6 +34,8 @@ sidebar_custom_props:
 
   A newly connected account can take longer. Until its holdings arrive, the tab says “Connected to [your brokerage]. New holdings can take up to two days to show up in Vassant.”
 
+- **Long Absences**: Vassant pauses syncing if you haven't opened the app in 60 days, and picks back up when you return. After 90 days away we send a notification, and if you still haven't come back 7 days later, your connections are removed. Your positions and contributions stay as manual entries, and your subscription isn't affected. The Invest tab tells you when this happens so you can reconnect.
+
 - **Position Models in Synced Mode**: A position's percent allocation refreshes on every sync, so a plan marked complete shows incomplete again if the allocation drops below target. “Watchlist” positions and their respective models are not impacted in “Sync” mode.
 
 - **Live Market Data**: Users gain access to public market data for automatic price checks given a position’s next purchase price, as well as automatic price calculations for determining the “Next Purchase Price.”

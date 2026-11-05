@@ -176,7 +176,7 @@ Mastery points measure your track comprehension, and they can never drop below z
 <details id="unlock-deep-dives">
   <summary>2. How do I unlock locked "Deep Dives" without upgrading?</summary>
 
-Free users start with 2 unlocked Deep Dives. You can unlock 3 more by earning Mastery Points through Library quizzes: the milestones unlock at 12, 24, and 36 total Mastery Points. The rest require VassantPRO.
+Free users start with 3 unlocked Deep Dives. You can unlock 3 more by earning Mastery Points through Library quizzes: the milestones unlock at 12, 24, and 36 total Mastery Points. The rest require VassantPRO.
 
 </details>
 
