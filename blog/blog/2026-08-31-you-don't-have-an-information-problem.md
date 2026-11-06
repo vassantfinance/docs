@@ -1,6 +1,7 @@
 ---
 slug: you-don't-have-an-information-problem
 title: You Don't Have an Information Problem
+image: ./thumbnails/informationproblemsquare.jpg
 tags: [Long-Term]
 authors: [blake]
 ---
