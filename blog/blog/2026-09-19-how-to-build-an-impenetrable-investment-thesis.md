@@ -2,7 +2,7 @@
 slug: how-to-build-an-impenetrable-investment-thesis
 title: How to Build An Impenetrable Investment Thesis
 authors: blake
-
+image: ./thumbnails/thesissquare.jpg
 tags: [Investing, Long-Term, Conviction]
 ---
 
