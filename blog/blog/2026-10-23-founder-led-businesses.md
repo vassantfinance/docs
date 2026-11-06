@@ -2,7 +2,7 @@
 slug: why-founder-led-companies-win
 title: "Why Founder-Led Companies Win"
 authors: blake
-
+image: ./thumbnails/chesssquare.jpg
 tags: [Investing, Long-Term, Qualitative Investing]
 ---
 
