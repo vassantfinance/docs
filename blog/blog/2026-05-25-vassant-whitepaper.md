@@ -2,6 +2,7 @@
 slug: whitepaper
 title: Vassant Whitepaper
 tags: [investing, capital_allocation, fintech]
+image: ./thumbnails/vassantlogosquare.jpg
 authors: [vassant_team]
 ---
 
