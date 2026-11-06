@@ -16,6 +16,8 @@ They have financial backing, tools, and information at the tips of their fingers
 
 Right?
 
+{/* truncate */}
+
 ***Not so fast.***
 
 The counterintuitive idea is that, in fact, these funds operate with a different set of constraints and incentives that make their investing world **much different than ours**.
