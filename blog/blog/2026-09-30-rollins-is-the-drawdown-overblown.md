@@ -2,7 +2,7 @@
 slug: rollins-is-the-drawdown-overblown
 title: "Rollins: Is The -50% Drawdown Overblown?"
 authors: blake
-
+image: ./thumbnails/rollinssquare.jpg
 tags: [Investing, Long-Term, Business Model]
 ---
 
