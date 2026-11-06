@@ -2,6 +2,7 @@
 slug: its-official-vassant-is-live
 title: It's Official. Vassant is Live!
 authors: [vassant_team]
+image: ./thumbnails/appstorelaunchsquare.jpg
 tags: [Vassant, Launch]
 ---
 
