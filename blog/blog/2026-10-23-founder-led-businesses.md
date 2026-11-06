@@ -19,6 +19,8 @@ Company](https://media.bain.com/Images/BAIN_BRIEF_Restoring_A_Founders_Mentality
 From 1990 to 2014, founder-led businesses outperformed "corporate" CEOs
 by **3.1x**.
 
+{/* truncate */}
+
 That's a pretty wild statistic.
 
 Maybe you've theorized why, but never really dug into the weeds on the
