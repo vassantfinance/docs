@@ -2,7 +2,7 @@
 slug: wall-streets-biggest-weaknesses
 title: "Wall Street’s Biggest Weaknesses"
 authors: blake
-image: ./thumbnails/wallstreetweakness.jpg
+image: ./thumbnails/wallstreetweaknesssquare.jpg
 tags: [Investing, Wall Street]
 ---
 
