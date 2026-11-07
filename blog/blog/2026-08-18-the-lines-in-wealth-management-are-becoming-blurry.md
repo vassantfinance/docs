@@ -2,6 +2,7 @@
 slug: the-lines-in-wealth-management-are-becoming-blurry
 title: The Lines in Wealth Management Are Becoming Blurry; It's Time to Refocus
 authors: [miles]
+image: ./thumbnails/wealthmanagementsquare.jpg
 tags: [Wealth Management, Investing, AI, Fintech]
 ---
 
