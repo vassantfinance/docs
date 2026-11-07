@@ -2,6 +2,7 @@
 slug: time-arbitrage
 title: Time Arbitrage
 authors: [blake]
+image: ./thumbnails/timearbitragesquare.jpg
 tags: [Investing, Long-Term]
 ---
 
