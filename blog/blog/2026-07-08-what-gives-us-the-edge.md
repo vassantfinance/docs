@@ -2,6 +2,7 @@
 slug: what-gives-us-the-edge
 title: What Gives Us the Edge?
 authors: [miles]
+image: ./thumbnails/theedgesquare.jpg
 tags: [Fintech, Compliance, Investing, Financial Literacy]
 ---
 
