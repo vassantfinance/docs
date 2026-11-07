@@ -2,6 +2,7 @@
 slug: budgeting-and-capital-allocations-simplified
 title: Budgeting and Capital Allocations Simplified
 authors: [miles]
+image: ./thumbnails/budgetingallocationsquare.jpg
 tags: [Budgeting, Capital Allocation, Financial Literacy, Fintech]
 ---
 
