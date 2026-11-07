@@ -2,6 +2,7 @@
 slug: before-using-ai-build-your-own-parameters
 title: Before Using AI, Build Your Own Parameters
 authors: [miles]
+image: ./thumbnails/parameterssquare.png
 tags: [Investing, AI, Financial Literacy, Fintech]
 ---
 
