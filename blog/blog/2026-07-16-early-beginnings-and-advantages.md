@@ -27,9 +27,7 @@ These were questions that didn't arise immediately but instead revealed themselv
 
 We made it clear after understanding the nuances that, most importantly, we did not want to officially recommend any financial products. This not only allowed us to **reduce regulatory risk** by not being liable for investment calls but also allowed individuals to integrate their own investment philosophies within the Vassant platform. 
 
-```
-We firmly believe that many investment approaches can succeed, and great platforms adapt to more than one. 
-```
+**We firmly believe that many investment approaches can succeed, and great platforms adapt to more than one.**
 
 So whether you are a quality investor, a hardcore value investor, or a momentum investor, Vassant **integrates seamlessly** with your workflow.
 
