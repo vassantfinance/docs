@@ -2,7 +2,7 @@
 slug: creating-a-knowledge-base-as-a-foundation-to-investing
 title: Creating a Knowledge Base as a Foundation to Investing
 authors: miles
-
+image: ./thumbnails/knowledgebasesquare.jpg
 tags: [Investing, Financial Literacy, Fintech]
 ---
 
