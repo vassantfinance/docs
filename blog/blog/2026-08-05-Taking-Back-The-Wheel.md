@@ -2,6 +2,7 @@
 slug: taking-back-the-wheel
 title: Taking Back the Wheel
 tags: [Businesses, ETF]
+image: ./thumbnails/takingbackwheelsquare.png
 authors: [blake]
 ---
 
