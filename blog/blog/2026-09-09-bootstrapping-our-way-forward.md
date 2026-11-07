@@ -2,6 +2,7 @@
 slug: bootstrapping-our-way-forward
 title: Bootstrapping Our Way Forward
 authors: [miles]
+image: ./thumbnails/bootstrapsquare.jpg
 tags: [Startup, Bootstrapping, Fintech, Vassant]
 ---
 
