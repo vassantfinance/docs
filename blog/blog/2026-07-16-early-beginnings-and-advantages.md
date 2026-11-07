@@ -2,6 +2,7 @@
 slug: early-beginnings-and-advantages
 title: Early Beginnings and Advantages
 authors: [blake]
+image: ./thumbnails/earlyadvantagessquare.jpg
 tags: [Business Model]
 ---
 
